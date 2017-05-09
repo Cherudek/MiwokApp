@@ -34,11 +34,8 @@ public class NumbersActivity extends AppCompatActivity {
         //Find the Linear Layout where I want to add the TextViews
         LinearLayout rootView = (LinearLayout) findViewById(R.id.rootView);
 
-        //creating an index variable for the While Loop
-        int index = 0;
-
         // Creating a While Loop to create as many TextViews as the items in our ArrayList
-        while (index < words.size()) {
+        for (int index = 0; index < words.size(); index++) {
 
             //Create a new TextView in the Linear Layout found by the ID
             TextView wordView = new TextView(this);
@@ -48,13 +45,7 @@ public class NumbersActivity extends AppCompatActivity {
 
             //Pass the Child view to the Parent View (Linear Layout id rootView)
             rootView.addView(wordView);
-
-            //Increment the index
-            index++;
-
         }
-
-
 
     }
 }
