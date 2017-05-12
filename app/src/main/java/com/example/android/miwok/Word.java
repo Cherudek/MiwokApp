@@ -10,6 +10,8 @@ public class Word {
     // String values: States of the Object Word
     private String mMiwokTranslation;
     private String mDefaultTraslation;
+    // int value for the resource id of the images
+    private int mImageID;
 
 
     //Constructor to create a Word Object
@@ -30,4 +32,8 @@ public class Word {
         return mDefaultTraslation;
     }
 
+    //get method for the imageID
+    public int getmImageID() {
+        return mImageID;
+    }
 }
