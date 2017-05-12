@@ -59,7 +59,7 @@ public class WordAdapter extends ArrayAdapter<Word> {
         TextView numberTextView = (TextView) listItemView.findViewById(R.id.list_item2);
         // Get the version number from the current AndroidFlavor object and
         // set this text on the number TextView
-        numberTextView.setText(currentWord.getDefaultTraslation());
+        numberTextView.setText(currentWord.getDefaultTranslation());
 
 
         // Return the whole list item layout (containing 2 TextViews and an ImageView)

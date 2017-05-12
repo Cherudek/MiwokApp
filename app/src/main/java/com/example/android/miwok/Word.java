@@ -9,16 +9,23 @@ public class Word {
 
     // String values: States of the Object Word
     private String mMiwokTranslation;
-    private String mDefaultTraslation;
+    private String mDefaultTranslation;
     // int value for the resource id of the images
     private int mImageID;
 
 
-    //Constructor to create a Word Object
+    //Constructor to create a Word Object with 2 string inputs
     public Word(String defaultTranslation, String miwokTranslation) {
 
         mMiwokTranslation = miwokTranslation;
-        mDefaultTraslation = defaultTranslation;
+        mDefaultTranslation = defaultTranslation;
+    }
+
+    //Constructor to create a Word Object with 2 string inputs and 1 image input
+    public Word(String mMiwokTranslation, String mDefaultTranslation, int mImageID) {
+        this.mMiwokTranslation = mMiwokTranslation;
+        this.mDefaultTranslation = mDefaultTranslation;
+        this.mImageID = mImageID;
     }
 
     //get Methods for MiwokTranslation
@@ -27,9 +34,8 @@ public class Word {
     }
 
     //get Methods for DefaultTranslation
-    public String getDefaultTraslation() {
-
-        return mDefaultTraslation;
+    public String getDefaultTranslation() {
+        return mDefaultTranslation;
     }
 
     //get method for the imageID
