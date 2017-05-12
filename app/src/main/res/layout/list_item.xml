@@ -2,21 +2,35 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:orientation="vertical"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:orientation="horizontal"
     android:padding="16dp">
 
-    <TextView
-        android:id="@+id/list_item1"
-        android:layout_width="match_parent"
+    <ImageView
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        tools:text="lilo" />
+        android:layout_marginRight="@dimen/activity_horizontal_margin"
+        android:src="@mipmap/ic_launcher" />
 
-    <TextView
-        android:id="@+id/list_item2"
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        tools:text="one" />
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/list_item1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:text="lilo" />
+
+        <TextView
+            android:id="@+id/list_item2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:text="one" />
+
+    </LinearLayout>
 
 
 </LinearLayout>
