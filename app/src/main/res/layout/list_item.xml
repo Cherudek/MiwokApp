@@ -12,6 +12,7 @@
         android:src="@mipmap/ic_launcher" />
 
     <LinearLayout
+        android:id="@+id/text_container"
         style="@style/listItemText"
         android:orientation="vertical">
 
