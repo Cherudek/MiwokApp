@@ -27,7 +27,7 @@ public class WordAdapter extends ArrayAdapter<Word> {
 
     /**
      * This is our own custom constructor (it doesn't mirror a superclass constructor).
-     * The context is used to inflate the layout file, and the list is the data we want
+     * The context is used to inflate the layout word_list.xml, and the list is the data we want
      * to populate into the lists.
      *
      * @param context The current context. Used to inflate the layout file.
@@ -51,14 +51,15 @@ public class WordAdapter extends ArrayAdapter<Word> {
 
     }
 
+    //Third constructor to include a sound variable to each actovity
+
     @NonNull
     @Override
     public View getView(int position, @Nullable View convertView, @NonNull ViewGroup parent) {
 
         View listItemView = convertView;
         if (listItemView == null) {
-            listItemView = LayoutInflater.from(getContext()).inflate(
-                    R.layout.list_item, parent, false);
+            listItemView = LayoutInflater.from(getContext()).inflate(R.layout.list_item, parent, false);
         }
 
         // Get the {@link Word} object located at this position in the list
@@ -66,19 +67,24 @@ public class WordAdapter extends ArrayAdapter<Word> {
 
         // Find the TextView in the list_item.xml layout with the ID list item 1
         TextView miwokTextView = (TextView) listItemView.findViewById(R.id.list_item1);
+
         // Get the version name from the current Word object and
-        // set this text on the name TextView
+        // set this text on the miwok TextView
         miwokTextView.setText(currentWord.getMiwokTranslation());
 
         // Find the TextView in the list_item.xml layout with the ID list item 2
         TextView defaultTextView = (TextView) listItemView.findViewById(R.id.list_item2);
+
         // Get the version number from the current Word object and
-        // set this text on the number TextView
+        // set this text on the default translation TextView
         defaultTextView.setText(currentWord.getDefaultTranslation());
 
         // Find the ImageView in the list_item.xml layout with the ID version_number
         ImageView imageID = (ImageView) listItemView.findViewById(R.id.image);
 
+
+        // if else statement whether we want to show the imageView in the lis_item
+        // if an image is available or to remove the image View if no image is available
         if (currentWord.hasImage()) {
             // Get the image ID number from the current Word object and
             // set this image on the  ImageView
@@ -90,7 +96,7 @@ public class WordAdapter extends ArrayAdapter<Word> {
             imageID.setVisibility(View.GONE);
         }
 
-        //Set the theme color for the list view
+        //Set the background color for the list view
         View textContainer = listItemView.findViewById(R.id.text_container);
 
         //Find the colors the resource ID maps to.
@@ -99,7 +105,7 @@ public class WordAdapter extends ArrayAdapter<Word> {
         //Set the background color of the text Container View
         textContainer.setBackgroundColor(color);
 
-        // Return the whole list item layout (containing 2 TextViews and an ImageView)
+        // Return the whole list item layout (containing 2 TextViews and an ImageView if present)
         // so that it can be shown in the ListView
         return listItemView;
     }

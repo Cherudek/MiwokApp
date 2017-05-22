@@ -7,13 +7,18 @@ package com.example.android.miwok;
 public class Word {
 
 
-    //Constant int assigned to state no image;
+    //Constant int assigned to set a no image state to use in the hasImage method;
     private static final int NO_IMAGE = -1;
-    // String values: States of the Object Word
+
+    // String values: 2 x states of the Object Word
     private String mMiwokTranslation;
     private String mDefaultTranslation;
-    // int value for the resource id of the images
+
+    // int value to set the resource id of the images
     private int mImageID = NO_IMAGE;
+
+    // int value to set a sound input
+    private int mPlaySoundID;
 
 
     //Constructor to create a Word Object with 2 string inputs
@@ -28,6 +33,14 @@ public class Word {
         this.mMiwokTranslation = mMiwokTranslation;
         this.mDefaultTranslation = mDefaultTranslation;
         this.mImageID = mImageID;
+    }
+
+    //Constructor to create a Word Object with 4 inputs, 2 strings, 1 image, 1 sound
+    public Word(String mMiwokTranslation, String mDefaultTranslation, int mImageID, int mPlaySoundID) {
+        this.mMiwokTranslation = mMiwokTranslation;
+        this.mDefaultTranslation = mDefaultTranslation;
+        this.mImageID = mImageID;
+        this.mPlaySoundID = mPlaySoundID;
     }
 
     //get Methods for MiwokTranslation
@@ -45,7 +58,12 @@ public class Word {
         return mImageID;
     }
 
-    //this method returns a boolean value wheter the Word object has or not an immage
+    //get method for the soundID
+    public int getmPlaySoundID() {
+        return mPlaySoundID;
+    }
+
+    //this method returns a boolean value to check whether or not the Word object has  an image state associate with it;
     public boolean hasImage() {
         return mImageID != NO_IMAGE;
     }
