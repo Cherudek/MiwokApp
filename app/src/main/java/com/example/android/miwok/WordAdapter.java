@@ -10,6 +10,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
 import android.widget.ImageView;
+import android.widget.ListView;
 import android.widget.TextView;
 
 import java.util.ArrayList;
@@ -24,6 +25,9 @@ public class WordAdapter extends ArrayAdapter<Word> {
 
     //Color Background Variable to assign to each activity
     private int mColorBackgroundActivityID;
+
+    //Sound Variable to play to each object
+    private int mSoundActivityID;
 
     /**
      * This is our own custom constructor (it doesn't mirror a superclass constructor).
@@ -51,7 +55,13 @@ public class WordAdapter extends ArrayAdapter<Word> {
 
     }
 
-    //Third constructor to include a sound variable to each actovity
+    //Third constructor to include a sound variable to each activity
+    public WordAdapter(Activity context, ArrayList<Word> words, int ColorBackgroundActivityID, int SoundActivityID) {
+        super(context, 0, words);
+        mColorBackgroundActivityID = ColorBackgroundActivityID;
+        mSoundActivityID = SoundActivityID;
+
+    }
 
     @NonNull
     @Override
@@ -104,6 +114,7 @@ public class WordAdapter extends ArrayAdapter<Word> {
 
         //Set the background color of the text Container View
         textContainer.setBackgroundColor(color);
+
 
         // Return the whole list item layout (containing 2 TextViews and an ImageView if present)
         // so that it can be shown in the ListView
