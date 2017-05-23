@@ -29,10 +29,10 @@ public class Word {
     }
 
     //Constructor to create a Word Object with 2 string inputs and 1 image input
-    public Word(String mMiwokTranslation, String mDefaultTranslation, int mImageID) {
+    public Word(String mMiwokTranslation, String mDefaultTranslation, int mPlaySoundID) {
         this.mMiwokTranslation = mMiwokTranslation;
         this.mDefaultTranslation = mDefaultTranslation;
-        this.mImageID = mImageID;
+        this.mPlaySoundID = mPlaySoundID;
     }
 
     //Constructor to create a Word Object with 4 inputs, 2 strings, 1 image, 1 sound
