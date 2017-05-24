@@ -82,6 +82,14 @@ public class ColorsActivity extends AppCompatActivity {
         });
     }
 
+    @Override
+    protected void onStop() {
+        super.onStop();
+        // Release the media player if it currently exists because we are about to
+        // play a different sound file
+        releaseMediaPlayer();
+    }
+
     /**
      * Clean up the media player by releasing its resources.
      */
