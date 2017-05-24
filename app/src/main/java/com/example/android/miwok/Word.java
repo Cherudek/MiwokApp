@@ -21,13 +21,6 @@ public class Word {
     private int mPlaySoundID;
 
 
-    //Constructor to create a Word Object with 2 string inputs
-    public Word(String defaultTranslation, String miwokTranslation) {
-
-        mMiwokTranslation = miwokTranslation;
-        mDefaultTranslation = defaultTranslation;
-    }
-
     //Constructor to create a Word Object with 2 string inputs and 1 image input
     public Word(String mMiwokTranslation, String mDefaultTranslation, int mPlaySoundID) {
         this.mMiwokTranslation = mMiwokTranslation;
@@ -66,5 +59,15 @@ public class Word {
     //this method returns a boolean value to check whether or not the Word object has  an image state associate with it;
     public boolean hasImage() {
         return mImageID != NO_IMAGE;
+    }
+
+    @Override
+    public String toString() {
+        return "Word{" +
+                "mMiwokTranslation='" + mMiwokTranslation + '\'' +
+                ", mDefaultTranslation='" + mDefaultTranslation + '\'' +
+                ", mImageID=" + mImageID +
+                ", mPlaySoundID=" + mPlaySoundID +
+                '}';
     }
 }
