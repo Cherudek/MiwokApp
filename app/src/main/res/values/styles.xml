@@ -29,6 +29,7 @@
         <item name="android:textColor">@android:color/white</item>
         <item name="android:textStyle">bold</item>
         <item name="android:textAppearance">?android:textAppearanceMedium</item>
+        <item name="android:background">?android:selectableItemBackground</item>
     </style>
 
     <!-- Style for TextViews in the word_list xml -->
@@ -65,11 +66,11 @@
     </style>
 
     <style name="play">
-        <item name="android:layout_marginRight">8dp</item>
+        <item name="android:layout_marginRight">@dimen/left_margin</item>
         <item name="android:layout_alignParentRight">true</item>
         <item name="android:layout_centerVertical">true</item>
-        <item name="android:layout_width">wrap_content</item>
-        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">@dimen/play_button</item>
+        <item name="android:layout_height">@dimen/play_button</item>
     </style>
 
 
