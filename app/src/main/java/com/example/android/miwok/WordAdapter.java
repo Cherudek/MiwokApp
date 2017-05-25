@@ -27,9 +27,6 @@ public class WordAdapter extends ArrayAdapter<Word> {
     //Color Background Variable to assign to each activity
     private int mColorBackgroundActivityID;
 
-    //Sound Variable to play to each object
-    private int mSoundActivityID;
-
     /**
      * This is our own custom constructor (it doesn't mirror a superclass constructor).
      * The context is used to inflate the layout word_list.xml, and the list is the data we want
@@ -53,14 +50,6 @@ public class WordAdapter extends ArrayAdapter<Word> {
     public WordAdapter(Activity context, ArrayList<Word> words, int ColorBackgroundActivityID) {
         super(context, 0, words);
         mColorBackgroundActivityID = ColorBackgroundActivityID;
-
-    }
-
-    //Third constructor to include a sound variable to each activity
-    public WordAdapter(Activity context, ArrayList<Word> words, int ColorBackgroundActivityID, int SoundActivityID) {
-        super(context, 0, words);
-        mColorBackgroundActivityID = ColorBackgroundActivityID;
-        mSoundActivityID = SoundActivityID;
 
     }
 
@@ -107,14 +96,20 @@ public class WordAdapter extends ArrayAdapter<Word> {
             imageID.setVisibility(View.GONE);
         }
 
-        //Set the background color for the list view
+        //Set the background color for the list view with play button
         View textContainer = listItemView.findViewById(R.id.text_container);
+
+        //Set the color for the sub text view
+        View textContainer2 = listItemView.findViewById(R.id.text_play_container);
 
         //Find the colors the resource ID maps to.
         int color = ContextCompat.getColor(getContext(), mColorBackgroundActivityID);
 
         //Set the background color of the text Container View
         textContainer.setBackgroundColor(color);
+
+        //Set the background color of the text Container View
+        textContainer2.setBackgroundColor(color);
 
 
         // Return the whole list item layout (containing 2 TextViews and an ImageView if present)

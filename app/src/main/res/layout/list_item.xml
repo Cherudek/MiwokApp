@@ -12,6 +12,7 @@
         android:src="@mipmap/ic_launcher" />
 
     <RelativeLayout
+        android:id="@+id/text_play_container"
         style="@style/listItemText"
         android:layout_width="match_parent"
         android:layout_height="wrap_content">

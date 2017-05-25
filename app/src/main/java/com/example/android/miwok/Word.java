@@ -17,22 +17,27 @@ public class Word {
     // int value to set the resource id of the images
     private int mImageID = NO_IMAGE;
 
+
+    // int value to set a play icon
+    private int mPlayIcon;
+
     // int value to set a sound input
     private int mPlaySoundID;
 
 
-    //Constructor to create a Word Object with 2 string inputs and 1 image input
+    //Constructor to create a Word Object with 2 string inputs and 1 sound input
     public Word(String mMiwokTranslation, String mDefaultTranslation, int mPlaySoundID) {
         this.mMiwokTranslation = mMiwokTranslation;
         this.mDefaultTranslation = mDefaultTranslation;
         this.mPlaySoundID = mPlaySoundID;
     }
 
-    //Constructor to create a Word Object with 4 inputs, 2 strings, 1 image, 1 sound
+    //Constructor to create a Word Object with 4 inputs, 2 strings, 2 image, 1 sound
     public Word(String mMiwokTranslation, String mDefaultTranslation, int mImageID, int mPlaySoundID) {
         this.mMiwokTranslation = mMiwokTranslation;
         this.mDefaultTranslation = mDefaultTranslation;
         this.mImageID = mImageID;
+        this.mPlayIcon = mPlayIcon;
         this.mPlaySoundID = mPlaySoundID;
     }
 
@@ -49,6 +54,11 @@ public class Word {
     //get method for the imageID
     public int getmImageID() {
         return mImageID;
+    }
+
+    //get method for the icon ID
+    public int getmPlayIcon() {
+        return mPlayIcon;
     }
 
     //get method for the soundID
