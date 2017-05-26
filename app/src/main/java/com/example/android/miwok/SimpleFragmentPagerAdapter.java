@@ -29,6 +29,8 @@ import com.example.android.miwok.PhrasesFragment;
  */
 public class SimpleFragmentPagerAdapter extends FragmentPagerAdapter {
 
+    private String tabTitles[] = new String[]{"Numbers", "Family", "Colors", "Phrases"};
+
     public SimpleFragmentPagerAdapter(FragmentManager fm) {
         super(fm);
     }
@@ -49,5 +51,11 @@ public class SimpleFragmentPagerAdapter extends FragmentPagerAdapter {
     @Override
     public int getCount() {
         return 4;
+    }
+
+    @Override
+    public CharSequence getPageTitle(int position) {
+        // Generate title based on item position
+        return tabTitles[position];
     }
 }
