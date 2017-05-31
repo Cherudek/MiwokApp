@@ -16,11 +16,11 @@
 
     <!-- Base application theme. -->
     <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
-        <item name="colorPrimary">@color/primary_color</item>
+        <item name="colorPrimary">@color/tab_background</item>
         <item name="colorPrimaryDark">@color/primary_dark_color</item>
     </style>
 
-    <!-- Style for a category of vocabulary words -->
+    <!-- Style for a category of vocabulary tours -->
     <style name="CategoryStyle">
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">@dimen/list_item_height</item>
@@ -32,37 +32,39 @@
         <item name="android:background">?android:selectableItemBackground</item>
     </style>
 
-    <!-- Style for TextViews in the word_list xml -->
+    <!-- Style for TextViews in the tour_list xml -->
     <style name="listItemText">
         <item name="android:background">@color/category_numbers</item>
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">@dimen/list_item_height</item>
         <item name="android:gravity">center_vertical</item>
-        <item name="android:padding">8dp</item>
+        <item name="android:paddingLeft">8dp</item>
         <item name="android:textColor">@android:color/white</item>
         <item name="android:textStyle">bold</item>
         <item name="android:textAppearance">?android:textAppearanceMedium</item>
     </style>
 
-    <!-- Style for TextView List Item 1 in the word_list xml -->
+    <!-- Style for TextView List Item 1 in the tour_list xml -->
     <style name="listItem1">
         <item name="android:textColor">@android:color/white</item>
         <item name="android:textStyle">bold</item>
         <item name="android:textAppearance">?android:textAppearanceMedium</item>
     </style>
 
-    <!-- Style for TextView List Item 2 in the word_list xml -->
+    <!-- Style for TextView List Item 2 in the tour_list xml -->
     <style name="listItem2">
         <item name="android:textColor">@android:color/white</item>
         <item name="android:textAppearance">?android:textAppearanceMedium</item>
     </style>
 
 
-    <!-- Style for ImageView in the word_list xml -->
+    <!-- Style for ImageView in the tour_list xml -->
     <style name="listItemImage">
         <item name="android:layout_width">@dimen/list_item_height</item>
         <item name="android:layout_height">@dimen/list_item_height</item>
         <item name="android:gravity">center_vertical</item>
+        <item name="android:scaleType">centerCrop</item>
+        <item name="android:adjustViewBounds">true</item>
     </style>
 
     <style name="play">

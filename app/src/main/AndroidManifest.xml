@@ -32,8 +32,8 @@
         </activity>
 
         <activity
-            android:name=".NumbersActivity"
-            android:label="@string/category_numbers"
+            android:name=".SightsActivity"
+            android:label="@string/category_sights"
             android:parentActivityName=".MainActivity">
             <!-- Parent activity meta-data to support 4.0 and lower -->
             <meta-data
@@ -41,8 +41,8 @@
                 android:value=".MainActivity" />
         </activity>
         <activity
-            android:name=".FamilyActivity"
-            android:label="@string/category_family"
+            android:name=".MuseumsActivity"
+            android:label="@string/category_museums"
             android:parentActivityName=".MainActivity">
             <!-- Parent activity meta-data to support 4.0 and lower -->
             <meta-data
@@ -50,8 +50,8 @@
                 android:value=".MainActivity" />
         </activity>
         <activity
-            android:name=".ColorsActivity"
-            android:label="@string/category_colors"
+            android:name=".FoodActivity"
+            android:label="@string/category_food"
             android:parentActivityName=".MainActivity">
             <!-- Parent activity meta-data to support 4.0 and lower -->
             <meta-data
@@ -59,8 +59,8 @@
                 android:value=".MainActivity" />
         </activity>
         <activity
-            android:name=".PhrasesActivity"
-            android:label="@string/category_phrases"
+            android:name=".BarsActivity"
+            android:label="@string/category_bars"
             android:parentActivityName=".MainActivity">
             <!-- Parent activity meta-data to support 4.0 and lower -->
             <meta-data

@@ -27,7 +27,7 @@
                 style="@style/listItem1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                tools:text="lilo" />
+                tools:text="@string/mole" />
 
             <TextView
                 android:id="@+id/list_item2"
@@ -35,14 +35,9 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_below="@+id/list_item1"
-                tools:text="one" />
+                tools:text="@string/montebello20" />
 
         </RelativeLayout>
-
-        <ImageView
-            style="@style/play"
-            android:src="@drawable/ic_play_arrow_black_24dp" />
-
 
     </RelativeLayout>
 

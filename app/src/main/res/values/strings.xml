@@ -14,21 +14,23 @@
 -->
 <resources>
     <!-- Title for the application. [CHAR LIMIT=12] -->
-    <string name="app_name">Miwok</string>
+    <string name="app_name">Turin Tour App</string>
 
     <!-- Category name for phrases [CHAR LIMIT=20] -->
-    <string name="category_phrases">Phrases</string>
+    <string name="category_bars">Bars</string>
 
-    <!-- Category name for the vocabulary words for colors [CHAR LIMIT=20] -->
-    <string name="category_colors">Colors</string>
+    <!-- Category name for the vocabulary tours for colors [CHAR LIMIT=20] -->
+    <string name="category_food">Food</string>
 
-    <!-- Category name for the vocabulary words for numbers [CHAR LIMIT=20] -->
-    <string name="category_numbers">Numbers</string>
+    <!-- Category name for the vocabulary tours for numbers [CHAR LIMIT=20] -->
+    <string name="category_sights">Sights</string>
 
-    <!-- Category name for the vocabulary words for family members [CHAR LIMIT=20] -->
-    <string name="category_family">Family Members</string>
+    <!-- Category name for the vocabulary tours for family members [CHAR LIMIT=20] -->
+    <string name="category_museums">Museums</string>
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="montebello20">Via Montebello 20</string>
+    <string name="mole">Mole Antonelliana</string>
 
 </resources>
