@@ -83,14 +83,15 @@ public class FoodFragment extends Fragment {
         //Creating an ArrayList with 10 items
         final ArrayList<Tour> tours = new ArrayList<Tour>();
 
-        tours.add(new Tour("red", "weṭeṭṭi", R.drawable.color_red, R.raw.color_red));
-        tours.add(new Tour("green", "chokokki", R.drawable.color_green, R.raw.color_green));
-        tours.add(new Tour("brown", "takaakki", R.drawable.color_brown, R.raw.color_brown));
-        tours.add(new Tour("gray", "topoppi", R.drawable.color_gray, R.raw.color_gray));
-        tours.add(new Tour("black", "kululli", R.drawable.color_black, R.raw.color_black));
-        tours.add(new Tour("white", "kelelli", R.drawable.color_white, R.raw.color_white));
-        tours.add(new Tour("dusty yellow", "ṭopiisә", R.drawable.color_dusty_yellow, R.raw.color_dusty_yellow));
-        tours.add(new Tour("mustard yellow", "chiwiiṭә", R.drawable.color_mustard_yellow, R.raw.color_mustard_yellow));
+        tours.add(new Tour(getString(R.string.ranzini), getString(R.string.ranzini_address), getString(R.string.ranzini_description), R.drawable.ranzini, getString(R.string.ranzini_map), getString(R.string.ranzini_web_link)));
+        tours.add(new Tour(getString(R.string.platti), getString(R.string.platti_address), getString(R.string.platti_description), R.drawable.platti, getString(R.string.platti_map), getString(R.string.platti_web_link)));
+        tours.add(new Tour(getString(R.string.gelateria), getString(R.string.gelateria_address), getString(R.string.gelateria_description), R.drawable.gelateria2, getString(R.string.gelateria_map), getString(R.string.gelateria_web_link)));
+        tours.add(new Tour(getString(R.string.platti), getString(R.string.platti_address), getString(R.string.platti_description), R.drawable.platti, getString(R.string.platti_map), getString(R.string.platti_web_link)));
+        tours.add(new Tour(getString(R.string.platti), getString(R.string.platti_address), getString(R.string.platti_description), R.drawable.platti, getString(R.string.platti_map), getString(R.string.platti_web_link)));
+        tours.add(new Tour(getString(R.string.platti), getString(R.string.platti_address), getString(R.string.platti_description), R.drawable.platti, getString(R.string.platti_map), getString(R.string.platti_web_link)));
+        tours.add(new Tour(getString(R.string.platti), getString(R.string.platti_address), getString(R.string.platti_description), R.drawable.platti, getString(R.string.platti_map), getString(R.string.platti_web_link)));
+        tours.add(new Tour(getString(R.string.platti), getString(R.string.platti_address), getString(R.string.platti_description), R.drawable.platti, getString(R.string.platti_map), getString(R.string.platti_web_link)));
+
 
 
         // Create an {@link TourAdapter}, whose data source is a list of {@link Tour}s. The

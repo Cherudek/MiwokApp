@@ -30,7 +30,195 @@
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
-    <string name="montebello20">Via Montebello 20</string>
+    <string name="mole_address">Via Montebello 20</string>
     <string name="mole">Mole Antonelliana</string>
+    <string name="mole_description">The Mole Antonelliana is a major landmark building in Turin, Italy, named after its architect, Alessandro Antonelli. A mole in Italian is a building of monumental proportions.
+Construction began in 1863, soon after Italian unification, and was completed in 1889, after the architect\'s death. Originally conceived of as a synagogue, it now houses the Museo Nazionale del Cinema. A representation of the building is featured on the obverse of the Italian 2 cent euro coin. Since 2000, the building has housed the Museo Nazionale del Cinema (National Museum of Cinema). The Mole appears on the reverse of the two-cent Italian euro coins and was the inspiration for the official emblem of the 2006 Winter Olympics, as well as those of the 2005 World Bocce Championships and the 2006 World Fencing Championships.
+The building also lent its name to one of Italian football\'s oldest tournaments, the Derby della Mole, between Turin football clubs Torino and Juventus.
+On one side of the four-faced dome, the first Fibonacci numbers are written with red neon lights: they are part of the artistic work Il volo dei Numeri (Flight of the Numbers) by Mario Merz. [source Wikipedia] </string>
+    <string name="mole_web_link">http://www.museocinema.it/mole.php?l=en</string>
+    <string name="mole_map">45.068889, 7.693056</string>
+    <string name="cappuccini">Monte Dei Cappuccini</string>
+    <string name="cappuccini_address">Piazzale Monte dei Cappuccini, 3</string>
+    <string name="cappuccini_description">Santa Maria di Monte dei Cappuccini is a late-Renaissance-style church on a hill overlooking the River Po near the bridge of Piazza Vittorio Veneto in Turin, Italy. It was built for the Capuchin Order; construction began in 1583, and was completed in 1656. The original design was by Ascanio Vitozzi, but was completed by the engineer Giacomo Soldati.</string>
+    <string name="cappuccini_map">45.059722, 7.697222</string>
+    <string name="cappuccini_web_link">http://www.cappuccinipiemonte.it</string>
+    <string name="vittorio">Piazza Vittorio</string>
+    <string name="vittorio_address">Piazza Vittorio Veneto</string>
+    <string name="vittorio_description">Piazza Vittorio Veneto (detta semplicemente piazza Vittorio dai torinesi) è una delle piazze più importanti di Torino, posta nel centro storico della città.
+Si trova al termine di Via Po, a ridosso del fiume Po, chiudendosi sul ponte Vittorio Emanuele I che la collega alla piazza della Chiesa della Gran Madre di Dio e con il quartiere di Borgo Po.
+Si estende su un\'area di circa 39.960 m² (360 metri di lunghezza e 111 metri di larghezza massimi). È molto diffusa, soprattutto tra i torinesi, l\'idea che sia la piazza più grande d\'Europa. In realtà si tratta di un\'inesattezza. L\'errore nasce dal fatto Piazza Vittorio Veneto detiene effettivamente questo record, ma solo considerando le piazze dotate di portici.
+La piazza è notoriamente luogo di ritrovo e aggregazione giovanile, soprattutto a partire dal 2006, quando la riqualificazione dovuta alle Olimpiadi invernali di Torino ha trasformato i parcheggi della piazza in aree pedonali.
+Sono moltissimi i locali che vi si affacciano direttamente, molto frequentati soprattutto durante le sere dei fine settimana.</string>
+    <string name="vittorio_map">45.064779, 7.695468</string>
+    <string name="vittorio_web_link">https://it.wikipedia.org/wiki/Piazza_Vittorio_Veneto_(Torino)</string>
+    <string name="superga">Basilica of Superga</string>
+    <string name="superga_address">Strada Basilica di Superga, 73</string>
+    <string name="superga_description">was built from 1717 to 1731 for Victor Amadeus II of Savoy,[1] designed by Filippo Juvarra,[2] at the top of the hill of Superga. This fulfilled a vow the duke (and future King of Sardinia) had made during the Battle of Turin, after defeating the besieging French army within the War of the Spanish Succession.[2] The architect alluded to earlier styles while adding a baroque touch. The church contains the tombs of many princes and kings of the House of Savoy, including the Monument to Carlo Emanuele III (1733) by Ignazio Collino and his brother Filippo. Under the church are the tombs of the Savoy family, including most of its members (among them, Charles Albert).
+Rainbow over The Basilica of Superga. This church by Juvarra is considered late Baroque-Classicism.[3] The dome was completed in 1726 and resembles some elements of Michelangelo\'s dome at St. Peter\'s Basilica. This is no coincidence as Juvarra studied and worked in Rome for ten years prior to working in Turin. The temple front protrudes from a dome structure citing the Pantheon. The temple front is larger than typical proportions because the Superga is set upon this hill. It is also believed that Victor Amadeus wanted the basilica to rest on this hill as reminder of the power of the Savoy family as well as continue a line of sight to the existing castle in Rivolli. Later, the Stupinigi completed the triangle between the three residences of Savoy. The Royal Crypt of Superga is the burial place of the Savoy family.
+The history of the church can be traced to September 2, 1706, when Duke Victor Amadeus II of Savoy and the Prince of Carignan Eugene of Savoy climbed the hill to see Turin besieged by Franco-Spanish forces during the War of the Spanish Succession. Victor Amadeus, having knelt down in front of an old prop, swore that, in case of victory, he would have a monument built to our Lady (the Virgin Mary). From dawn until the early hours of the afternoon of September 7 the armies clashed in the fields at Jaya and Madonna di Campagna. Piedmontese armies achieved victory over the French. The entrance of the basilica with its portico supported by eight columns. Vittorio Amedeo was crowned King of Sicily. He entrusted the design of this building to Filippo Juvarra.
+The mountain at which the Basilica is found was the site of the Superga air disaster of Grande Torino football team in 1949.</string>
+    <string name="superga_map">45.080833, 7.7675</string>
+    <string name="superga_web_link">http://www.basilicadisuperga.com/en/</string>
+    <string name="duomo">Turin Cathedral</string>
+    <string name="duomo_address">Piazza San Giovanni</string>
+    <string name="duomo_description">Turin Cathedral (Italian: Duomo di Torino; Cattedrale di San Giovanni Battista ) is a Roman Catholic cathedral in Turin, northern Italy. Dedicated to Saint John the Baptist (Italian: San Giovanni Battista), it is the seat of the Archbishops of Turin.
+It was built during 1491–98 and is adjacent to an earlier campanile built in 1470. Designed by Guarino Guarini, the Chapel of the Holy Shroud (the current resting place of the Shroud of Turin) was added to the structure in 1668–94. The church lies in the place where the theatre of the ancient Roman city was located. The original Christian sacred house included three churches, dedicated to the Holy Saviour, Saint Mary of Dompno (Santa Maria de Dompno) and, the main of three, St. John the Baptist. According to some sources, the latter\'s consecration was carried on by Agilulf, the Lombard King of northern Italy from 591 to 613.[3] Here, in 662, Garibald, Duke of Turin (it) was assassinated in the church by a follower of Godepert, whose murder Garibald is believed to have had a part in.
+The three churches were demolished between 1490 and 1492. The new cathedral, again entitled to St. John the Baptist, was begun in 1491 under design of Amedeo de Francisco di Settignano, also known as Meo del Caprino, who finished it in seven years. The bell tower, however, remained the one erected in 1469, which is still visible today. Filippo Juvarra brought some modifications in the 17th century. Pope Leo X officially confirmed it as metropolitan see in 1515.
+A project for an enlargement of the cathedral, in order to create a more luxurious seat for the Shroud, was launched in 1649, when Bernardino Quadri arrived in Turin from Rome at the court of Duke Charles Emmanuel II of Savoy. Quadri\'s design was based on a previous project by Carlo di Castellamonte, with an oval chapel behind the choir. In 1667 Guarino Guarini was called in to complete the project. The dome, whose works dragged for 28 years, was completed in 1694 under the direction of Marie Jeanne of Savoy, Charles Emmanuel II\'s widow.
+The cathedral is the burial place of Blessed Pier Giorgio Frassati (1901–1925), Turin native, avid athlete, and benefactor of the poor, called the \"saint for youth of the Third Millennium.\" He was beatified by John Paul II in 1990.
+While the chapel of the Holy Shroud behind the cathedral was undergoing renovation during 2009, the Shroud was kept in a small chapel within the cathedral.</string>
+    <string name="duomo_map">45.07332, 7.685435</string>
+    <string name="duomo_web_link">http://www.duomoditorino.it</string>
+    <string name="consolata">Santuario della Consolata</string>
+    <string name="consolata_address">Piazza della Consolata</string>
+    <string name="carignano">Palazzo Carignano</string>
+    <string name="carignano_address">Via Accademia delle Scienze, 5</string>
+    <string name="carignano_description">The Palazzo Carignano is a historical building in the centre of Turin, Italy, which houses the Museum of the Risorgimento. It was a private residence of the Princes of Carignano, after whom it is named. It\'s rounded façade is different from other façades of the same structure. It is located on the Via Accademia delle Scienze. The construction of the Palazzo Carignano was ordered by Prince Emmanuel Philibert, son of Thomas Francis, Prince of Carignano and his French wife Marie de Bourbon. The Prince commissioned architect Guarino Guarini to design a suitable residence for his home and the cadet house of the reigning House of Savoy.
+Guarini designed the structure in the shape of a square, with a straight and restrained east façade and an elliptical façade on the west. Guarini also added a forecourt at the center of the palace. Construction began in 1679, when the Prince was 51 years old.
+The decorations over the windows of the piano nobile recall the campaign of the Carignano family with Carignan-Salières Regiment against the Iroquois in 1667. The interior has always been described as lavish and has splendid frescoes and stucco decorations.[by whom?]
+Among the frescoes are some by Stefano Legnani, called il Legnanino. The main stairwell is decorated with busts by Pietro Somazzi.
+The building, constructed in brick in a typical Baroque style, has an elliptical main façade. This façade represents the only example of civic architecture making use of the undulating \'concave – convex – concave\' rhythm established by Francesco Borromini in the church of S. Carlo alle Quattro Fontane in Rome.
+The Palazzo was the birthplace of princesse de Lamballe in 1749 – confidant of Marie Antoinette and for whom she died in 1792. Charles Emmanuel, Prince of Carignano was born there in 1770. It was also the birthplace of the first King of Italy, Victor Emmanuel II in 1820.
+From 1848 to 1861 the palace was used as the House of Deputies of the Subalpine Parliament. In 1861, with the creation of the parliament of the newly unified Kingdom of Italy, the room was not large enough to host the House of Deputies, which was moved elsewhere.</string>
+    <string name="carignano_map">45.068889, 7.686111</string>
+    <string name="carignano_web_link">https://www.visitatorino.com/palazzi-di-torino/palazzo-carignano/</string>
+    <string name="regina">Villa della Regina</string>http://www.ilpalazzorealeditorino.it
+    <string name="regina_address">Strada Comunale Santa Margherita, 79</string>
+    <string name="regina_description">The original structure was designed in early 1615 by the Italian soldier, architect and military engineer, Ascanio Vitozzi. He died in 1615 and the project was passed over to his collaborators, father and son Carlo and Amedeo di Castellamonte. The original building was built for the Prince-Cardinal Maurice of Savoy during the reign of his brother Victor Amadeus I, Duke of Savoy. The property was built as a private villa with its own vineyard, hence its alternative name of Vigna di Madama. In 1637 Cardinal Maurice lost his brother and his sister in law Christine Marie of France became Regent of Savoy for her young son, Carlo Emanuele II of Savoye.
+Prince Maurice of Savoy and his brother Thomas Francis, Prince of Carignano opposed the Regency and fled to Spain. Following his return to Turin, Maurice died at the Villa in 1657 and willed it to his wife Louise Christine of Savoy who also died there in 1692. At the death of Louise Christine, it passed to Anne Marie d\'Orléans, niece of Louis XIV of France wife Victor Amadeus II, Duke of Savoy in 1684.
+She used the Vigna when she could. Most of the present décor of the Vigna is from her lifetime. Her husband was the King of Sicily from 1713 till 1720, when he exchanged Sicily with Sardinia. From then on, the building was known as Villa della Regina (\"Villa of the Queen\"). It was here Anne Marie died in 1728. Anne Marie\'s eldest daughter Maria Adelaide came here and tried to recreate it at Versailles at the Ménagerie.
+Polyxena of Hesse-Rotenburg, daughter in law of Anne Marie, did some work in the main saloon of the building when she became the owner of the villa in 1728 at the death of Anne Marie.
+Inside there are frescoes and paintings by Giovanni Battista Crosato, Daniel Seyter and Corrado Giaquinto in the main room, grotesques of Filippo Minei and paintings by the brothers Domenico and Giuseppe Valeriani in the near rooms; there are also precious Chinese Cabinets in lacquer and golden wood. In the park there is the Pavilion of the Solinghi, pagoda building in which the Academy of the Solinghi used to meet; it was a group of intellectuals founded by the Cardinal Maurice.
+The Villa was later used by the Spanish Queen of Sardinia Maria Antonietta Ferdinanda. It remained the property of the House of Savoy till 1868 when it was donated by Victor Emmanuel II of Italy to the Institute of the Army\'s Daughters and in 1994 it was given to the State domain.
+Damaged in the Second World War, it is today open to the public in order to fund its maintenance.</string>
+    <string name="regina_map">45.06, 7.71</string>
+    <string name="regina_web_link">http://www.residenzereali.it/index.php/en/residenze-reali-del-piemonte/villa-della-regina</string>
+    <string name="valentino">Valentino Park</string>
+    <string name="valentino_address">Corso Massimo d\'Azeglio</string>
+    <string name="valentino_description">Parco del Valentino (also known as Valentino Park) is a popular public park in Turin, Italy. It is located along the west bank of the Po river. It covers an area of 500,000m², which makes it Turin\'s second largest park (Turin\'s largest park, the 840,000m² Pellerina Park, is Italy\'s most extended urban green area). The Parco del Valentino was opened by the city of Turin in 1856, and was Italy\’s first public garden. </string>
+    <string name="valentino_map">45.054, 7.686</string>
+    <string name="valentino_web_link">http://www.comune.torino.it/verdepubblico/patrimonioverde/parchi-giardini/valentino/valentino.shtml</string>
+    <string name="reale">Royal Palace of Turin</string>
+    <string name="reale_address">Piazza Castello</string>
+    <string name="reale_description">The Royal Palace of Turin (Italian: Palazzo Reale di Torino) is a historic palace of the House of Savoy in the city of Turin in Northern Italy. It was originally built in the 16th century and was later modernized by Christine Marie of France (1606–63) in the 17th century, with designs by the Baroque architect Filippo Juvarra. The palace also includes the Palazzo Chiablese and the Chapel of the Holy Shroud, the latter of which was built to house the famous Shroud of Turin. In 1946, the building became the property of the state and was turned into a museum. In 1997, it was placed on the UNESCO World Heritage Site list along with 13 other residences of the House of Savoy. Construction of the palace was ordered by the Regent Maria Christina in 1645. She wanted a new residence for the court after her son returned from the civil war.
+The chosen location was the previous Bishop\'s Palace, which had been built in the middle of the new capital of Savoy, Turin, during the reign of Emmanuel Philibert, Duke of Savoy (1528–1580). Its advantages included an open and sunny position, in addition to being close to other buildings where the court met. The Duke was able to monitor the two entrances of the city (the Palatine and the Pretoria gates) from the Bishop\'s Palace. The Bishop\'s Palace in Turin was later captured by the French in 1536 and served as a residence of the French Viceroys of Savoy, who were appointed by Francis I of France. Opposite the Bishop\'s Palace was the Palazzo Vecchio or the Palazzo di San Giovanni. This building, disparagingly known as Pasta con Tonno (English: Pasta with tuna) because of its architecture, was later replaced by the grand Ducal Palace.
+Thus the old Bishop\'s Palace became the seat of power and was greatly expanded by Emmanuel Philibert to house his ever growing collection of art, animals, marbles, and furniture. Emmanuel Philibert died in Turin in August 1580 and the Savoyard throne was handed down to his son, Charles Emmanuel I, Duke of Savoy (1562–1630). In celebration of the joint marriages of his daughters Princess Margaret and Princess Isabella in 1608, Charles Emmanuel I commissioned the construction of a ring of porches topped off by an open gallery. His son, the future Victor Amadeus I, Duke of Savoy (1587–1637), entered into a prestigious marriage when he married the French Princess Christine Marie of France. Their marriage took place in Paris at the Louvre in 1619.
+Victor Amadeus I succeeded to the Duchy of Savoy in 1630. He had previously spent his youth in Madrid at the court of his grandfather, Philip II of Spain. His wife set the tone for Victor Amadeus I\'s reign. Christine Marie had the court moved from the ducal palace in Turin to the Castello del Valentino, which at that time, was on the outskirts of the small capital. Many of Victor Amadeus I and Christine Marie\'s children were born at Valentino, including Francis Hyacinth, Duke of Savoy and his successor Charles Emmanuel II, Duke of Savoy. Christine Marie became the regent of Savoy after the death of her husband in 1637 on behalf of her two sons, who succeeded as Dukes of Savoy.
+During the reign of Victor Amadeus II, the Daniel gallery was created and named after Daniel Seiter, who painted the lavish murals seen there. Victor Amadeus II also had a collection of summer apartments built to look onto the court and a winter apartment overlooking the gardens. His wife was the niece of Louis XIV, born Anne Marie d\'Orléans. Louis XV\'s mother and aunt were born in the palace in 1685 and 1688, respectively.
+The Chapel of the Holy Shroud, the current resting place of the Shroud of Turin, was added to the structure in 1668-1694.
+The Dukes of Savoy became the Kings of Sicily in 1713, but they swapped to the Kingdom of Sardinia and ruled from 1720 after the Treaty of The Hague. Anne Marie d\'Orléans died at the palace in 1728.
+Victor Amadeus III married Maria Antonietta of Spain and the couple preferred to reside in the country in the Palazzina di caccia di Stupinigi. The Neoclassical style was introduced to the palace in the reign of Charles Emmanuel III. The palace was overshadowed by the Stupinigi building later on, when Victor Emmanuel II of Sardinia married Maria Adelaide of Austria. The palace once again saw some life with the redecoration of some of its rooms.
+In 1946, the palace was claimed by the Italian Republic and turned into a \"Museum of the Life and Works of the House of Savoy\". Its rooms are decorated with rich tapestries and a collection of Chinese and Japanese vases. The Royal Armoury houses an extensive array of arms, including examples from the 16th and 17th centuries.
+The palace houses the Scala delle Forbici, a staircase by Filippo Juvarra. The Chapel of the Holy Shroud, with its spiral dome, was built in the west wing of the palace, joining the apse (a semicircular recess) of the Cathedral of St. John the Baptist, to house the famous Shroud of Turin, which belonged to the family from 1453 until 1946. The royal gates of the palace have a golden Medusa symbol embossed on them, in order to fend off intruders.</string>
+    <string name="reale_map">45.0727, 7.686</string>
+    <string name="reale_web_link">http://www.ilpalazzorealeditorino.it</string>
+    <string name="bicerin">Al Bicerin</string>
+    <string name="bicerin_address">piazza della Consolata 5</string>
+    <string name="bicerin_description">The word bicerin is Piedmontese for "small glass" and is a clear dialect version of Italian bicchierino (diminutive of bicchiere, "glass").
+The beverage has been known since the 18th century and was also praised by Alexandre Dumas in 1852. It is believed to be based on the 17th century drink Bavareisa: the key distinction is that in a bicerin the three components are carefully layered in the glass rather than being mixed together.
+Caffè al Bicerin, a historic coffeehouse of Turin, has been serving the drink in Turin's piazza della Consolata since the 18th century, right across from the Santuario della Consolata, and some authorities believe that the drink was invented there. Others believe that it originated around 1704 in Caffè Fiorio, which still stands on what is now via Po.</string>
+    <string name="bicerin_map">45.0762221, 7.6789502</string>
+    <string name="bicerin_web_link">http://www.bicerin.it</string>
+
+    <string name="fiorio">Fiorio</string>
+    <string name="fiorio_address">Via Po n. 8 Torino ITALY</string>
+    <string name="fiorio_description">Fiorio Cafè first opened its doors in 1780. The population of Turin then was seventy thousand people within the city walls and eighteen thousand in the suburbs and on the countryside. There were thirty two streets, illuminated by 630 street lights, which intersected each other at right angles, resulting in 139 blocks. In Turin of those times, Caffee Fiorio had great success and, in a short while, it earned the reputation of being a reference point in the town\’s social life, which was also enhanced by the splendor that Via Po was enjoying. Its long history aside, Fiorio is one of the most important cafes in Turin, one of those which have best conserved the city\’s atmosphere and traditions. Who has not come across the fact that it was at Fiorio where the city\’s public opinion was being shaped during those years when Turin was actively contributing to the Unification of Italy? It was so important that the sovereigns, both Carlo Felice and Carlo Alberto, and their ministers used to ask “What is being said at Fiorio?” to tap the public opinion. Although today it no longer enjoys a privileged position in national politics, the heart of the city life still beats at its halls. Like any cafe? with self esteem, it has its own rhythm, and hectic hours succeed hours of peace. Families which fill up the halls on a Sunday afternoon follow groups of friends who chit chat and clerks who enjoy a coffee break. Of course, there are the hours of solitary clients, who seem to agree with Hermann Kesten, “I do not notice solitude even at a deserted cafe?. The ghosts of past clients sit at the tables, or the ghosts of the future clients.</string>
+    <string name="fiorio_map">45.0694261,7.688002399999959 </string>
+    <string name="fiorio_web_link">http://www.caffefiorio.it/en/</string>
+
+    <string name="mulassano">Caffe Mulassano</string>
+    <string name="mulassano_description">The alabaster mountain on the marble counter gushes, filling up a kindness small glass one after the other; the welcome from the barmen, dressed in white, is worthy of a Savoy
+etiquette manual. I make a small talk at the counter about regenerating holidays at the thermal baths, sipping a delicious cappuccino. Under my eyes, are pulling out sandwiches
+with goose\’s smoked chest and green sardines that seem to belong to a royal picnic at Stupinigi. I redirect my appetite towards the tray loaded of babà, chocolate truffles and
+lady’s kisses. Everything is perfect. What is lacking is only a bust of King Umberto I at the entrance, but they tell me that they are striving for it. A little precious trunk:
+among historical café of Turin, Mulassano is my favorite, for a breakfast that occasionally is worth it to have, a sandwich as it should be (according to someone, it is born here) or a Vermouth at the appetizer time.</string>
+    <string name="mulassano_address">Fiorio</string>
+    <string name="mulassano_map">45.07025419999999,7.686539400000015</string>
+    <string name="mulassano_web_link">http://www.caffemulassano.com/en/</string>
+
+    <string name="blahblah">Blah Blah</string>
+    <string name="blahblah_address">via Po, 21</string>
+    <string name="blahblah_description">Il posto cardine della differenza torinese, nel centro di Torino, in via Po, nel fulcro del Blah Blah quotidiano.
+1907, il cinema per famiglie, la prima proiezione Lumière, il Cinema Po, King Kong Microplex, quindi Blah Blah: uno spazio non più destinato al solo cinema, ma ibridazione e contaminazione di arte, musica, cinema e parole. Una strada diversa per la Torino anni 2000 che non può interrompersi, che non può smettere di offrire proposte intransigenti e di qualità, in un contesto rinnovato e reilluminato, splendente e accogliente, con formule nuove ma contenuti che proseguono sulla strada già intrapresa.
+Blah Blah, bar, food, musica, cinema, teatro, arte, parole.
+Concerti di qualità, indipendenti e insoliti, fuori dalle rotte comuni come lo standard Blah Blah ha abituato ma su un nuovo palco e una nuova area live, nell’ormai rinomata sala polifunzionale, che si presta per molteplici attività. </string>
+    <string name="blahblah_map">45.0688732,7.689471499999968</string>
+    <string name="blahblah_web_link">http://www.blahblahtorino.com</string>
+
+    <string name="maddog">Mad Dog</string>
+    <string name="maddog_address">Via Maria Vittoria, 35A</string>
+    <string name="maddog_description">
+Once, it was the American: Campari, Vermouth and soda. But, the Count Negroni appreciated it with gin. And so it was born the cocktail with the same name that is so
+venerated at the Mad Dog. I am not a negronist, but it is very hard don\’t be attracted by one of the revisiting of the place: the Daiquiri version, for example, is a pleasant discover! At the Mad Dog the surprises start immediately: if you want to enter it\’s necessary a password, like in the American speakeasy of Prohibition. To know it is necessary to click on the place’s website and to answer to the question. The next step is to book a table by using e – mail and try to understand which of that anonymous wood doors of Maria Vittoria Street is the secret club. I ring the intercom and they come to get me: between the soft lights, the piano and the brick wall, suddenly I let myself get carried away into 20’s. The smoking room would attract even the most obstinate enemy of cigarettes, with the sliding glass door and the leather armchairs on which I would have stayed for hours, comfortably seated to chat, forgetting the swing concert, held in one of the two rooms of the place. </string>
+    <string name="maddog_map">45.0657162,7.690744499999937</string>
+    <string name="maddog_web_link">http://www.themaddog.it/about/</string>
+
+    <string name="drogheria">La Drogheria</string>
+    <string name="drogheria_address">Piazza Vittorio Veneto 18d</string>
+    <string name="drogheria_description">Cocktail bar, art and entertainment</string>
+    <string name="drogheria_map">Mad Dog</string>
+    <string name="drogheria_web_link">Mad Dog</string>
+
+    <string name="dunque">Dunque</string>
+    <string name="dunque_address">Via Santa Giulia 26A</string>
+    <string name="dunque_description">Beppe vuole andare al dunque… La prima volta che ho letto questo messaggio sul mio telefono proprio non capivo a cosa si riferisse… Poi tutto è diventato più chiaro, una volta arrivata in questo piccolo locale di Vanchiglia che, se non altro, ha battuto tutti i competitor dai nomi bruttarelli con una metafora più che mai azzeccata: perché è di sostanza che stiamo parlando. Lo spazio è limitato ma c\’è tutto l\’essenziale, un bancone sovrastato da uno specchio che fa un po\’ retrò, due barman sapienti, pochi tavolini e qualche sgabello, la gente giusta. Ci trovi il giro dei musicisti underground di Torino, la psichedelia nostrana, buone bottiglie, cocktail come si deve e all’ora dell\’aperitivo stuzzichini casalinghi senza troppe menate. Di sostanza.</string>
+    <string name="dunque_map">45.0712768,7.696490400000016</string>
+    <string name="dunque_web_link">https://www.facebook.com/Dunque-694535277321010/</string>
+
+    <string name="torre"> Torre Cremeria Bar</string>
+    <string name="torre_address">Corso Regio Parco, 28</string>
+    <string name="torre_description">Quando chiedo consiglio su dove andare a mangiare un ottimo gelato mi sento dire: “Vai al Bar Torre, ma non dirlo in giro ché poi ci vanno tutti”. Be’, a giudicare dalla fila di sul marciapiede, si direbbe che la voce ormai si sia sparsa. Infatti, la bontà delle granite e dei gelati di Torre non è di certo un segreto. Il mio gusto preferito è mandorla, ma faccio volentieri uno strappo alla regola per gelsi con panna montata e, quando proprio sono giù, vado di granita al cioccolato. Quando poi sono ancora più giù, per provare un’emozione davvero intensa pranzo con una brioche siciliana (quella vera, col tuppo) calda, ripiena di gelato, e allora realizzo che il mondo è un posto meraviglioso. La colazione qui, poi, è un must, e anche il pranzo non è affatto male! Ai più viziosi consiglio, per finire, un caffè con una pallina di gelato. E la giornata riprende slancio.</string>
+    <string name="torre_map">45.08391510000001,7.710690099999965</string>
+    <string name="torre_web_link">https://www.facebook.com/torre.cremeriabar/</string>
+
+    <string name="piolino">Il Piolino Vini e Caffe</string>
+    <string name="piolino_address">Via Monferrato, 23g</string>
+    <string name="piolino_description">
+A pochi passi dalla Gran Madre mi sembra di tornare indietro nel tempo e, passeggiando tra le botteghe e i negozi di via Monferrato, incontro l\’eleganza e l\’agiatezza sabaude. Così avevo immaginato i torinesi prima di venire a vivere qui, come gli habitué del Piolino (lo chiamano così, ma l\’insegna dice “Vini caffè”): signori distinti con il loden verde bottiglia. Vini è il locale dei desideri, una piccola vineria d\’altri tempi con ottime bottiglie e prezzi onestissimi. Scordatevi il solito apericena, qui si viene per bere buon vino, aspettare l\’imbrunire con gli amici (attenzione, chiude all’ora di cena!) e ascoltare le storie che si raccontano seduti al bancone, ai tavoli o quando c\’è bel tempo nel dehors. Se non volete il vino trovate anche dell’ottima birra, tra cui le corse Petra e Colomba. Finalmente un posto dove non incontri le solite facce, lo terrei tutto per me, ma come fare?</string>
+    <string name="piolino_map">45.0636137,7.7007169999999405</string>
+    <string name="piolino_web_link">http://www.shoppingborgopo.it/piolino/</string>
+
+    <string name="baladin">Baladin Birrificio</string>
+    <string name="baladin_address">Piazzale Valdo Fusi</string>
+    <string name="baladin_description">Open Baladin Turin is not “just” a pub. Its project is guided by an ambitious goal: turning Turin into the capital of Italian craft beer in northern Italy. How? By creating beer culture, the core of the whole “Open” project. OPEN. Open is an innovative project developed by Teo Musso “to shake the world of Italian craft beers. Our Open project is inspired by the open source approach and is based on sharing” (from “Baladin. La Birra artigianale è tutta colpa di Teo” – Baladin. Craft beer is all Teo\’s fault – published by Feltrinelli).</string>
+    <string name="baladin_map">45.0641885,7.687519899999984</string>
+    <string name="baladin_web_link">http://www.baladin.it/en/our-places/open-baladin-torino</string>
+
+    <string name="amantes">Amantes</string>
+    <string name="amantes_address">Via Principe Amedeo, 38</string>
+    <string name="amantes_description">The city changes, human beings move, they open thousand of new locals, but some of them are still an unchanging and comforting landmarks. Such as the Amantes: the only one
+where I would like to seek refuge in a rain evening to find the usual friendly faces, the usual good music, the peanuts and the Zubrowska bottle, which cost is very low here.
+Roberto since some years, manages with love this Arci association, which host several shows of street artists and outsiders, expositions dedicated to the art week, dj set for vinyl, good music and acoustic lives lovers. The aperitif is the moment when you meet the faces of who lived the “night life” as long as before it was invented, among wine glasses, snacks and cocktails without additional charge.</string>
+    <string name="amantes_map">45.06629759999999,7.691255599999977</string>
+    <string name="amantes_web_link">http://www.arcipiemonte.it/torino/affiliati/circolo-culturale-amantes-laleph-galleria-la-fotografia</string>
+
+    <string name="baratti">Baratti e Milano</string>
+    <string name="baratti_address">piazza Castello 10</string>
+    <string name="baratti_description">Built in 1875 and in the heart of Turin, you will feel like royalty in the elegant surroundings of 19th century interiors. Once supplier to the royal Savoy family, and tearoom of choice for the wealthy middle classes and intellectuals, the spacious tearoom overlooks Galleria Subalpina. Sample the luxurious hot chocolate, which in Turin is more like a rich, velvety, chocolate sauce. It is perfectly acceptable in Turin to eat this with your teaspoon – even inside such opulent premises.</string>
+    <string name="baratti_map">45.0711813,7.685038800000029</string>
+    <string name="baratti_web_link">https://www.barattiemilano.it</string>
+
+    <string name="ranzini">Caffè-Vini Emilio Ranzini</string>
+    <string name="ranzini_address">Via Porta Palatina, 9/g</string>
+    <string name="ranzini_map">45.0731449,7.683217199999945</string>
+    <string name="ranzini_description">Location scouts looking for a neighbourhood bar from Turin\'s mid-century glory days would jump on this little place. A crew of local shopkeepers, creatives and students frequent prop up its dark wooden bar and loll about the summer courtyard with wines by the glass, €1 boiled eggs and small plates.</string>
+    <string name="ranzini_web_link">https://www.facebook.com/Caffè-Vini-Emilio-Ranzini-137797756237320/</string>
+
+    <string name="platti">Caffè Platti</string>
+    <string name="platti_address">Corso V. Emanuele II, 72 </string>
+    <string name="platti_description">If you visit just one of Turin\'s historic locales then it has to be the lustrous, belle epoque Caffe Platti. Open from the early morning till late at night, this is a vibrant meeting place, from genteel ladies sipping a "biccerin", Turin\'s traditional coffee, mixed with bitter chocolate and topped off with thick cream, to the noisy evening crowd discussing the fortunes of Juventus or the latest gaffe by Berlusconi. Aperitivo runs from 6-9pm, and although you can take a table in the opulent salon, it is more fun - and cheaper - to squeeze in at the bar, which is lined with plates of canapes, pizzette and tempting cakes from their own bakery. A glass of wine will set you back €5.</string>
+    <string name="platti_map">45.0645748,7.674672399999963</string>
+    <string name="platti_web_link">http://www.platti.it</string>
+
+    <string name="gelateria_web_link">https://www.facebook.com/comenaturacrema/</string>
+    <string name="gelateria">Cooperativa – Gelateria Naturale</string>
+    <string name="gelateria_map">45.0594139,7.680579899999998</string>
+    <string name="gelateria_description">La Gelateria naturale di San Salvario vuole essere lo specchio del quartiere in cui si trova: l’ambientazione è multietnica, l’equipe è formata da persone di diverse nazionalità residenti in San Salvario.
+La gelateria è stata avviata e aperta grazie al metodo dell’azionariato popolare cooperativo (ACP) che consiste nel finanziamento collettivo di attività commerciali e culturali che, anziché essere riservato ad un numero limitato di soci, coinvolge un numero il più elevato possibile di soggetti, soprattutto soggetti cosiddetti “non istituzionali”.</string>
+    <string name="gelateria_address">Via Berthollet 13</string>
+
+    <string name="soul_web_link">https://www.facebook.com/SoulKitchenVeganRawRestaurant/</string>
+    <string name="soul"></string>
 
 </resources>

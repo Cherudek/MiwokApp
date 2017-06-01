@@ -10,9 +10,30 @@ public class Tour {
     //Constant int assigned to set a no image state to use in the hasImage method;
     private static final int NO_IMAGE = -1;
 
-    // String values: 2 x states of the Object Tour
+    // String values: for the place name of the Object Tour
     private String mPlace;
+
+    //String value for the address of the object tour
     private String mAddress;
+
+    //The description of the place
+    private String mPlaceDescription;
+
+    //The ID of the image resource of the place
+    private int mPlaceImageResourceID;
+
+    //Constant for no audio
+    private int NO_AUDIO_RESOURCE = -1;
+
+    //The ID of the audio resourse of the place
+    private int mPlaceAudioResourceID = NO_AUDIO_RESOURCE;
+
+    //The site URL of the place
+    private String mPlaceSiteURL;
+
+    //The location coordinates of the place
+    private String mPlaceLocation;
+
 
     // int value to set the resource id of the images
     private int mImageID = NO_IMAGE;
@@ -25,20 +46,25 @@ public class Tour {
     private int mPlaySoundID;
 
 
-    //Constructor to create a Tour Object with 2 string inputs and 1 sound input
-    public Tour(String mPlace, String mAddress, int mPlaySoundID) {
-        this.mPlace = mPlace;
-        this.mAddress = mAddress;
-        this.mPlaySoundID = mPlaySoundID;
+    //Public constructor of the Place object with no audio resource
+    public Tour(String name, String address, String description, int imageResourceID, String siteUrl, String location) {
+        mPlace = name;
+        mAddress = address;
+        mPlaceImageResourceID = imageResourceID;
+        mPlaceDescription = description;
+        mPlaceSiteURL = siteUrl;
+        mPlaceLocation = location;
     }
 
-    //Constructor to create a Tour Object with 4 inputs, 2 strings, 2 image, 1 sound
-    public Tour(String mPlace, String mAddress, int mImageID, int mPlaySoundID) {
-        this.mPlace = mPlace;
-        this.mAddress = mAddress;
-        this.mImageID = mImageID;
-        this.mPlayIcon = mPlayIcon;
-        this.mPlaySoundID = mPlaySoundID;
+    //Public constructor of the Place object with audio resource
+    public Tour(String name, String address, String description, int imageResourceID, String siteUrl, int audioResourceID, String location) {
+        mPlace = name;
+        mAddress = address;
+        mPlaceImageResourceID = imageResourceID;
+        mPlaceDescription = description;
+        mPlaceSiteURL = siteUrl;
+        mPlaceAudioResourceID = audioResourceID;
+        mPlaceLocation = location;
     }
 
     //get Methods for MiwokTranslation
@@ -69,6 +95,16 @@ public class Tour {
     //this method returns a boolean value to check whether or not the Tour object has  an image state associate with it;
     public boolean hasImage() {
         return mImageID != NO_IMAGE;
+    }
+
+    //get the address of our object
+    public String getmAddress() {
+        return mAddress;
+    }
+
+    //set method for the address state
+    public void setmAddress(String mAddress) {
+        this.mAddress = mAddress;
     }
 
     @Override

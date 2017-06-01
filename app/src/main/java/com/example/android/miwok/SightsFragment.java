@@ -83,16 +83,16 @@ public class SightsFragment extends Fragment {
         //Creating an ArrayList with 10 items
         final ArrayList<Tour> tours = new ArrayList<Tour>();
 
-        tours.add(new Tour("Mole Antonelliana", "Via Montebello, 20", R.drawable.mole));
-        tours.add(new Tour("Monte Dei Cappuccini", "Piazzale Monte dei Cappuccini, 3", R.drawable.al_monte_dei_cappuccini));
-        tours.add(new Tour("Piazza Vittorio", "Piazza Vittorio", R.drawable.piazza_vittorio));
-        tours.add(new Tour("Basilica of Superga", "Strada Basilica di Superga, 73", R.drawable.basilica_superga));
-        tours.add(new Tour("Turin Cathedral", "Piazza San Giovanni", R.drawable.duomo));
-        tours.add(new Tour("Santuario della Consolata", "Piazza della Consolata", R.drawable.consolata01));
-        tours.add(new Tour("Palazzo Carignano", "Via Accademia delle Scienze, 5", R.drawable.palazzo_carignano));
-        tours.add(new Tour("Villa della Regina", "Strada Comunale Santa Margherita, 79", R.drawable.regina3));
-        tours.add(new Tour("Valentino Park", "Corso Massimo d'Azeglio", R.drawable.parco_del_valentino));
-        tours.add(new Tour("Royal Palace of Turin", "Piazza Castello", R.drawable.piazza_castello));
+        tours.add(new Tour(getString(R.string.mole), getString(R.string.mole_address), getString(R.string.mole_description), R.drawable.mole, getString(R.string.mole_map), getString(R.string.mole_web_link)));
+        tours.add(new Tour(getString(R.string.cappuccini), getString(R.string.cappuccini_address), getString(R.string.cappuccini_description), R.drawable.al_monte_dei_cappuccini, getString(R.string.cappuccini_map), getString(R.string.cappuccini_web_link)));
+        tours.add(new Tour(getString(R.string.vittorio), getString(R.string.vittorio_address), getString(R.string.vittorio_description), R.drawable.piazza_vittorio, getString(R.string.vittorio_map), getString(R.string.vittorio_web_link)));
+        tours.add(new Tour(getString(R.string.superga), getString(R.string.superga_address), getString(R.string.superga_description), R.drawable.basilica_superga, getString(R.string.superga_map), getString(R.string.superga_web_link)));
+        tours.add(new Tour(getString(R.string.duomo), getString(R.string.duomo_address), getString(R.string.duomo_description), R.drawable.duomo, getString(R.string.duomo_map), getString(R.string.duomo_web_link)));
+        tours.add(new Tour(getString(R.string.consolata), getString(R.string.consolata_address), getString(R.string.superga_description), R.drawable.consolata01, getString(R.string.superga_description), getString(R.string.superga_description)));
+        tours.add(new Tour(getString(R.string.carignano), getString(R.string.carignano_address), getString(R.string.carignano_description), R.drawable.palazzo_carignano, getString(R.string.carignano_map), getString(R.string.carignano_web_link)));
+        tours.add(new Tour(getString(R.string.regina), getString(R.string.regina_address), getString(R.string.regina_description), R.drawable.regina3, getString(R.string.regina_map), getString(R.string.regina_web_link)));
+        tours.add(new Tour(getString(R.string.valentino), getString(R.string.valentino_address), getString(R.string.valentino_description), R.drawable.parco_del_valentino, getString(R.string.valentino_map), getString(R.string.valentino_web_link)));
+        tours.add(new Tour(getString(R.string.reale), getString(R.string.reale_address), getString(R.string.reale_description), R.drawable.piazza_castello, getString(R.string.reale_map), getString(R.string.reale_web_link)));
 
         // Create an {@link TourAdapter}, whose data source is a list of {@link Tour}s. The
         // adapter knows how to create list items for each item in the list.
