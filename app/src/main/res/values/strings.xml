@@ -219,6 +219,56 @@ La gelateria è stata avviata e aperta grazie al metodo dell’azionariato popol
     <string name="gelateria_address">Via Berthollet 13</string>
 
     <string name="soul_web_link">https://www.facebook.com/SoulKitchenVeganRawRestaurant/</string>
-    <string name="soul"></string>
+    <string name="soul">Soul Kitchen Vegan and Raw Restaurant</string>
+    <string name="soul_address">Via Santa Giulia, 2</string>
+    <string name="soul_map">45.07275789999999,7.692543800000067</string>
+    <string name="soul_description">Il bello di non essere vegano è che puoi mangiare anche vegano e, indipendentemente dai motivi che portano una persona a non mangiare animali e prodotti derivati, trovo che ogni alternativa a una cucina tradizionale sia un punto di vista interessante e in alcuni casi, come in questo, anche buono e sano. Soul Kitchen, per esempio, è un ristorante delizioso e accogliente – bellissima cucina a vista, sale molto curate dove trascorrere il tempo di una cena è un piacere – che propone ottimi piatti tra il vegano e il raw food. Vanta un menu che oltre a condire tofu, seitan ed edamame nelle migliori salse, vi farà scoprire che i dolci fatti senza uova e senza latte possono essere ancora più buoni. Se volete assaggiare un must, vi consiglio il seitan in crosta, che oltre ad essere stato strizzato e aromatizzato con cura (niente è lasciato alla produzione industriale) vi farà dimenticare la triste e vecchia bistecca.</string>
+
+    <string name="cianci">Da Cianci Piola e Caffe</string>
+    <string name="cianci_address">Largo 4 Marzo 9/b</string>
+    <string name="cianci_map">45.0733279,7.682910099999958</string>
+    <string name="cianci_web_link">https://www.facebook.com/ciancipiolacaffe/</string>
+    <string name="cianci_description">With tables spilling onto the square in the warmer months of the year, this bustling piola – laid-back eatery – offers hearty portions of regional dishes at unbeatable prices just a few steps from Piazza Castello, the city’s main square. Tagliatelle and gnocchi are supplied by a trusted provider in the nearby town of Cuneo, while pasta sauces and condiments change on a daily basis according to what’s available. The snug interior features walls packed with knick-knacks: a violin, a handful of hanging chairs, framed photos and even a fridge. The antipasto misto (€6) includes tomini, a fresh and creamy soft cheese, pickled vegetables, and anchovies, a key ingredient in Piedmont’s cuisine.
+• Dishes from €6. +39 388 876 7003, Facebook page. Open daily 12.30pm-3.30pm and 6.30pm-11pm</string>
+
+    <string name="porto">Porto di Savona</string>
+    <string name="porto_address">Piazza Vittorio Veneto, 2</string>
+    <string name="porto_description">One of the city’s oldest restaurants, Porto di Savona opened in 1863 when Turin was the capital of Italy (1861-1865). The restaurant is on the city’s beautiful Piazza Vittorio, and the warm interior is laid out like a 19th-century tavern, with period furniture and tiled floors. The menu includes black truffle risotto (€10) and handmade tagliatelle with creamy castelmagno cheese (€8.50). The dishes of the day feature seasonal ingredients, from the region’s sought-after peppers to crunchy hazelnuts used for desserts. In autumn and winter, bagna cauda features on the menu, a garlic, oil and anchovy dip typically eaten by dipping raw vegetables including cardoon, cabbage and peppers.
+• Dishes from €6. +39 011 817 3500, foodandcompany.com. Open daily 12.30pm-2.30pm (Sat and Sun until 3pm) and 7.30pm-midnight</string>
+    <string name="porto_web_link">https://www.facebook.com/ristoranteportodisavona/</string>
+    <string name="porto_map">45.065773,7.69336480000004</string>
+
+    <string name="eataly">Eataly</string>
+    <string name="eataly_description">Established in Turin in 2007, this large food emporium in a former factory building offers the best of the country’s produce, from carefully selected prime beef cuts to first-rate wines including Piedmont’s world-renowned barbaresco and barolo. A large section is dedicated to slow food, the international movement born in Turin that values locally grown, seasonal products and regional cuisine. Dotted around the premises are informal restaurants and cafes, each serving tasty dishes prepared with high-quality seasonal and local ingredients: freshly baked breads, cheeses, cured meats, cold-cuts, hand-made pastas, and even ice-creams and pastries.
+• Dishes from €5.80. +39 011 1950 6801, eataly.net. Open daily 10am-10.30pm</string>
+    <string name="eataly_address">Via Nizza, 230</string>
+    <string name="eataly_map">45.0351477,7.667531300000064</string>
+    <string name="eataly_web_link">https://www.eataly.net/it_it/negozi/torino-lingotto/</string>
+
+    <string name="primavera">Trattoria Primavera</string>
+    <string name="primavera_address">Via Perugia, 19</string>
+    <string name="primavera_map">45.079164,7.693269200000032</string>
+    <string name="primavera_web_link">https://www.facebook.com/TrattoriaPrimaveraTorino/</string>
+    <string name="primavera_description">Una volta un amico mi ha detto: "Le insegne al neon così, ci sono solo a Torino". Non a caso eravamo davanti alla Trattoria Primavera, che era qui prima che in zona arrivassero vari carrozzoni del buono, pulito e giusto… Al Primavara non ci vai perchè è bello, ci vai perchè hai fame, è economico ed è pure buono. Nel menu trovi tanti piatti tipici della cucina sarda: malloreddu, curlungiones, il prosciutto crudo sardo e il pecorino, ma anche dei piatti nazionalpopolari e il pesce del venerdì. Un invito alla commozione.</string>
+
+    <string name="ala">Trattoria Ala</string>
+    <string name="ala_web">http://www.trattoria-ala.it</string>
+    <string name="ala_address">Via Santa Giulia 24</string>
+    <string name="ala_map">45.071601,7.695680700000025</string>
+    <string name="ala_description">ALA prende il nome della prima proprietaria Ulivieri Ala che ha fondato la trattoria nel 1950 nata ad altopascio (lucca).Giunta a torino dopo la guerra ha dedicato tutta la sua vita alla trattoria. 
+A pochi metri dal Centro di Torino, a due passi dalla Mole Antonelliana, la Trattoria Ala nasce nel 1950 e prende nome da chi l\'ha fondata, e da allora mantiene intatta la sua tradizione di sapori casalinghi e genuini, in un mix di piatti che passano per la tradizione culinaria Toscana, e affondano nella "cucina della nonna" e nei piatti della migliore tradizione Italiana. Zuppe di pesce, paste caserecce, bolliti, appetitose bistecche di cinghiale, piatti per i più piccini, contorni con verdure di stagione cotte e crude, un ampio assortimento di dolci, rende la trattoria Ala un luogo ideale per la famiglia, per la cena fra amici, e perchè no anche per mangiarci tutti i giorni.</string>
+
+    <string name="barricata">Barricata</string>
+    <string name="barricata_address">Via Giulia di Barolo, 48</string>
+    <string name="barricata_map">45.07057,7.7006300000000465</string>
+    <string name="barricata_web">https://www.facebook.com/pages/Barricata-Bar-Bistro/281262071891732</string>
+    <string name="barricata_description">Barricata è un locale dove puoi iniziare con l\'aperitivo e finire a notte fonda. O andarci anche solo per un drink, o solo per la cena. Questo rende -unica nota dolente- l\'ambiente interno un po\' chiassoso dalle 21 in avanti. Ma quando è estate, nel dehor esterno è una pacchia! La cucina è sfiziosa ed economica con sempre una scelta per i vegetariani. Ottimi i primi, anche a base di pesce. Mai banale ma nemmeno pretenzioso, mangi bene e diverso dal solito (riso venere con scampi, gnocchetti gamberi e asparagi, flan di vedure con crema di parmigiano) e spendi poco. Un piatto+dolce+vino sfuso, caffè e amaro (spesso offerto) non supera i 18/20 euro. Pane e acqua gratuiti cosí come il coperto. Il servizio a volte è un po\' "ruspante" ma sta bene con l'ambiente alternativo del locale, ma sono comunque molto gentili. Con amici, in coppia, sono andata anche con la mamma! Consigliatissimo.
+Aperto solo a cena.</string>
+
+    <string name="pastis"></string>
+    <string name="pastis_description">Decorated in a colourful 1950\'s retro style, Pastis could be described as an "alternative cafe". To begin with, the traditional aperitivo buffet is served from 5.30-8pm (plates of prosciutto crudo, smoked sausage, cheeses, quiche and the ubiquitous pizza) - but it is on the house - drink prices stay the same, between €3-4 for a beer or glass of wine. The bar then turns into a restaurant, but serving light, creative Sicilian cuisine rather than hearty Piemontese dishes. There is also a gallery promoting young artists, with weekly exhibition opening parties every Wednesday at 10pm.</string>
+    <string name="pastis_address">Piazza Emanuele Filiberto, 9 b</string>
+    <string name="pastis_map">45.0761486,7.681198799999947</string>
+    <string name="pastis_web">https://www.facebook.com/pastis.torino/</string>
 
 </resources>

@@ -86,11 +86,14 @@ public class FoodFragment extends Fragment {
         tours.add(new Tour(getString(R.string.ranzini), getString(R.string.ranzini_address), getString(R.string.ranzini_description), R.drawable.ranzini, getString(R.string.ranzini_map), getString(R.string.ranzini_web_link)));
         tours.add(new Tour(getString(R.string.platti), getString(R.string.platti_address), getString(R.string.platti_description), R.drawable.platti, getString(R.string.platti_map), getString(R.string.platti_web_link)));
         tours.add(new Tour(getString(R.string.gelateria), getString(R.string.gelateria_address), getString(R.string.gelateria_description), R.drawable.gelateria2, getString(R.string.gelateria_map), getString(R.string.gelateria_web_link)));
-        tours.add(new Tour(getString(R.string.platti), getString(R.string.platti_address), getString(R.string.platti_description), R.drawable.platti, getString(R.string.platti_map), getString(R.string.platti_web_link)));
-        tours.add(new Tour(getString(R.string.platti), getString(R.string.platti_address), getString(R.string.platti_description), R.drawable.platti, getString(R.string.platti_map), getString(R.string.platti_web_link)));
-        tours.add(new Tour(getString(R.string.platti), getString(R.string.platti_address), getString(R.string.platti_description), R.drawable.platti, getString(R.string.platti_map), getString(R.string.platti_web_link)));
-        tours.add(new Tour(getString(R.string.platti), getString(R.string.platti_address), getString(R.string.platti_description), R.drawable.platti, getString(R.string.platti_map), getString(R.string.platti_web_link)));
-        tours.add(new Tour(getString(R.string.platti), getString(R.string.platti_address), getString(R.string.platti_description), R.drawable.platti, getString(R.string.platti_map), getString(R.string.platti_web_link)));
+        tours.add(new Tour(getString(R.string.soul), getString(R.string.soul_address), getString(R.string.soul_description), R.drawable.soul, getString(R.string.soul_map), getString(R.string.soul_web_link)));
+        tours.add(new Tour(getString(R.string.cianci), getString(R.string.cianci_address), getString(R.string.cianci_description), R.drawable.cianci, getString(R.string.cianci_map), getString(R.string.cianci_web_link)));
+        tours.add(new Tour(getString(R.string.porto), getString(R.string.porto_map), getString(R.string.porto_description), R.drawable.porto, getString(R.string.porto_map), getString(R.string.porto_web_link)));
+        tours.add(new Tour(getString(R.string.eataly), getString(R.string.eataly_address), getString(R.string.eataly_description), R.drawable.eataly, getString(R.string.eataly_map), getString(R.string.eataly_web_link)));
+        tours.add(new Tour(getString(R.string.primavera), getString(R.string.primavera_address), getString(R.string.primavera_description), R.drawable.primavera, getString(R.string.primavera_map), getString(R.string.primavera_web_link)));
+        tours.add(new Tour(getString(R.string.ala), getString(R.string.ala_address), getString(R.string.ala_description), R.drawable.ala, getString(R.string.ala_map), getString(R.string.ala_web)));
+        tours.add(new Tour(getString(R.string.barricata), getString(R.string.barricata_address), getString(R.string.barricata_description), R.drawable.barricata, getString(R.string.barricata_map), getString(R.string.barricata_web)));
+        tours.add(new Tour(getString(R.string.pastis), getString(R.string.pastis_address), getString(R.string.pastis_description), R.drawable.pastis, getString(R.string.pastis_map), getString(R.string.pastis_web)));
 
 
 
