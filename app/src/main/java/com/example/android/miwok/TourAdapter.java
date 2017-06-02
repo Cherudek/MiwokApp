@@ -85,7 +85,7 @@ public class TourAdapter extends ArrayAdapter<Tour> {
         if (currentTour.hasImage()) {
             // Get the image ID number from the current Tour object and
             // set this image on the  ImageView
-            imageID.setImageResource(currentTour.getmImageID());
+            imageID.setImageResource(currentTour.getImageResourceID());
             // Make sure the image is VISIBLE
             imageID.setVisibility(View.VISIBLE);
         } else {

@@ -130,7 +130,7 @@ public class SightsFragment extends Fragment {
                     // We have audio focus now.
 
                     //Create a media player object to play the sound of numbers
-                    mMediaPlayer = MediaPlayer.create(getActivity(), tourPosition.getmPlaySoundID());
+                    mMediaPlayer = MediaPlayer.create(getActivity(), tourPosition.getmPlaceAudioResourceID());
                     mMediaPlayer.start();
 
                     // Setup a listener on the media player, so that we can stop and release the

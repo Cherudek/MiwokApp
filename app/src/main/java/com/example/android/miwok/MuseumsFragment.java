@@ -88,16 +88,17 @@ public class MuseumsFragment extends Fragment {
         //Creating an ArrayList with 10 items
         final ArrayList<Tour> tours = new ArrayList<Tour>();
 
-        tours.add(new Tour("father", "әpә", R.drawable.family_father, R.raw.family_father));
-        tours.add(new Tour("mother", "әṭa", R.drawable.family_mother, R.raw.family_mother));
-        tours.add(new Tour("son", "angsi", R.drawable.family_son, R.raw.family_son));
-        tours.add(new Tour("daughter", "tune", R.drawable.family_daughter, R.raw.family_daughter));
-        tours.add(new Tour("older brother", "taachi", R.drawable.family_older_brother, R.raw.family_older_brother));
-        tours.add(new Tour("younger brother", "chalitti", R.drawable.family_younger_brother, R.raw.family_younger_brother));
-        tours.add(new Tour("older sister", "teṭe", R.drawable.family_older_sister, R.raw.family_older_sister));
-        tours.add(new Tour("younger sister", "kolliti", R.drawable.family_younger_sister, R.raw.family_younger_sister));
-        tours.add(new Tour("grandmother ", "ama", R.drawable.family_grandmother, R.raw.family_grandmother));
-        tours.add(new Tour("grandfather", "paapa", R.drawable.family_grandfather, R.raw.family_grandfather));
+        tours.add(new Tour(getString(R.string.mole), getString(R.string.mole_address), getString(R.string.mole_description), R.drawable.mole, getString(R.string.mole_map), getString(R.string.mole_web_link)));
+        tours.add(new Tour(getString(R.string.cappuccini), getString(R.string.cappuccini_address), getString(R.string.cappuccini_description), R.drawable.al_monte_dei_cappuccini, getString(R.string.cappuccini_map), getString(R.string.cappuccini_web_link)));
+        tours.add(new Tour(getString(R.string.vittorio), getString(R.string.vittorio_address), getString(R.string.vittorio_description), R.drawable.piazza_vittorio, getString(R.string.vittorio_map), getString(R.string.vittorio_web_link)));
+        tours.add(new Tour(getString(R.string.superga), getString(R.string.superga_address), getString(R.string.superga_description), R.drawable.basilica_superga, getString(R.string.superga_map), getString(R.string.superga_web_link)));
+        tours.add(new Tour(getString(R.string.duomo), getString(R.string.duomo_address), getString(R.string.duomo_description), R.drawable.duomo, getString(R.string.duomo_map), getString(R.string.duomo_web_link)));
+        tours.add(new Tour(getString(R.string.consolata), getString(R.string.consolata_address), getString(R.string.superga_description), R.drawable.consolata01, getString(R.string.superga_description), getString(R.string.superga_description)));
+        tours.add(new Tour(getString(R.string.carignano), getString(R.string.carignano_address), getString(R.string.carignano_description), R.drawable.palazzo_carignano, getString(R.string.carignano_map), getString(R.string.carignano_web_link)));
+        tours.add(new Tour(getString(R.string.regina), getString(R.string.regina_address), getString(R.string.regina_description), R.drawable.regina3, getString(R.string.regina_map), getString(R.string.regina_web_link)));
+        tours.add(new Tour(getString(R.string.valentino), getString(R.string.valentino_address), getString(R.string.valentino_description), R.drawable.parco_del_valentino, getString(R.string.valentino_map), getString(R.string.valentino_web_link)));
+        tours.add(new Tour(getString(R.string.reale), getString(R.string.reale_address), getString(R.string.reale_description), R.drawable.piazza_castello, getString(R.string.reale_map), getString(R.string.reale_web_link)));
+
 
         // Create an {@link TourAdapter}, whose data source is a list of {@link Tour}s. The
         // adapter knows how to create list items for each item in the list.
@@ -134,7 +135,7 @@ public class MuseumsFragment extends Fragment {
 
                     // Create and setup the {@link MediaPlayer} for the audio resource associated
                     // with the current word
-                    mMediaPlayer = MediaPlayer.create(getActivity(), tourPosition.getmPlaySoundID());
+                    mMediaPlayer = MediaPlayer.create(getActivity(), tourPosition.getmPlaceAudioResourceID());
 
                     // Start the audio file
                     mMediaPlayer.start();

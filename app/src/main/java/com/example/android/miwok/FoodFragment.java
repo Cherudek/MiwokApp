@@ -88,7 +88,7 @@ public class FoodFragment extends Fragment {
         tours.add(new Tour(getString(R.string.gelateria), getString(R.string.gelateria_address), getString(R.string.gelateria_description), R.drawable.gelateria2, getString(R.string.gelateria_map), getString(R.string.gelateria_web_link)));
         tours.add(new Tour(getString(R.string.soul), getString(R.string.soul_address), getString(R.string.soul_description), R.drawable.soul, getString(R.string.soul_map), getString(R.string.soul_web_link)));
         tours.add(new Tour(getString(R.string.cianci), getString(R.string.cianci_address), getString(R.string.cianci_description), R.drawable.cianci, getString(R.string.cianci_map), getString(R.string.cianci_web_link)));
-        tours.add(new Tour(getString(R.string.porto), getString(R.string.porto_map), getString(R.string.porto_description), R.drawable.porto, getString(R.string.porto_map), getString(R.string.porto_web_link)));
+        tours.add(new Tour(getString(R.string.porto), getString(R.string.porto_address), getString(R.string.porto_description), R.drawable.porto, getString(R.string.porto_map), getString(R.string.porto_web_link)));
         tours.add(new Tour(getString(R.string.eataly), getString(R.string.eataly_address), getString(R.string.eataly_description), R.drawable.eataly, getString(R.string.eataly_map), getString(R.string.eataly_web_link)));
         tours.add(new Tour(getString(R.string.primavera), getString(R.string.primavera_address), getString(R.string.primavera_description), R.drawable.primavera, getString(R.string.primavera_map), getString(R.string.primavera_web_link)));
         tours.add(new Tour(getString(R.string.ala), getString(R.string.ala_address), getString(R.string.ala_description), R.drawable.ala, getString(R.string.ala_map), getString(R.string.ala_web)));
@@ -131,7 +131,7 @@ public class FoodFragment extends Fragment {
                 if (result == AudioManager.AUDIOFOCUS_REQUEST_GRANTED) {
 
                     //Create a media player object to play the sound of numbers
-                    mMediaPlayer = MediaPlayer.create(getActivity(), tourPosition.getmPlaySoundID());
+                    mMediaPlayer = MediaPlayer.create(getActivity(), tourPosition.getmPlaceAudioResourceID());
                     mMediaPlayer.start();
 
                     //OnCompletion Listener added plus a Toast message End of Transmissions!

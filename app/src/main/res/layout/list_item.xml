@@ -9,7 +9,7 @@
     <ImageView
         android:id="@+id/image"
         style="@style/listItemImage"
-        android:src="@mipmap/ic_launcher" />
+        tools:src="@drawable/mole" />
 
     <RelativeLayout
         android:id="@+id/text_play_container"
@@ -35,7 +35,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_below="@+id/list_item1"
-                tools:text="@string/montebello20" />
+                tools:text="@string/mole_address" />
 
         </RelativeLayout>
 
