@@ -119,38 +119,10 @@ public class SightsFragment extends Fragment {
 
                 //method get to find the position clicked in our list view
                 Tour tourPosition = tours.get(position);
-
-                // Request audio focus so in order to play the audio file. The app needs to play a
-                // short audio file, so we will request audio focus with a short amount of time
-                // with AUDIOFOCUS_GAIN_TRANSIENT.
-                int result = mAudioManager.requestAudioFocus(mOnAudioFocusChangeListener,
-                        AudioManager.STREAM_MUSIC, AudioManager.AUDIOFOCUS_GAIN_TRANSIENT);
-
-                if (result == AudioManager.AUDIOFOCUS_REQUEST_GRANTED) {
-                    // We have audio focus now.
-
-                    //Create a media player object to play the sound of numbers
-                    mMediaPlayer = MediaPlayer.create(getActivity(), tourPosition.getmPlaceAudioResourceID());
-                    mMediaPlayer.start();
-
-                    // Setup a listener on the media player, so that we can stop and release the
-                    // media player once the sound has finished playing.
-                    mMediaPlayer.setOnCompletionListener(mCompletionListener);
-                }
             }
         });
-
+        // Inflate the layout for this fragment
         return rootView;
-    }
-
-
-    @Override
-    public void onStop() {
-        super.onStop();
-
-        // When the activity is stopped, release the media player resources because we won't
-        // be playing any more sounds.
-        releaseMediaPlayer();
     }
 
 

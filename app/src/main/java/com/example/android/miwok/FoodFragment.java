@@ -122,21 +122,6 @@ public class FoodFragment extends Fragment {
                 //method get to find the position clicked in our list view
                 Tour tourPosition = tours.get(position);
 
-                // Request audio focus so in order to play the audio file. The app needs to play a
-                // short audio file, so we will request audio focus with a short amount of time
-                // with AUDIOFOCUS_GAIN_TRANSIENT.
-                int result = mAudioManager.requestAudioFocus(mOnAudioFocusChangeListener,
-                        AudioManager.STREAM_MUSIC, AudioManager.AUDIOFOCUS_GAIN_TRANSIENT);
-
-                if (result == AudioManager.AUDIOFOCUS_REQUEST_GRANTED) {
-
-                    //Create a media player object to play the sound of numbers
-                    mMediaPlayer = MediaPlayer.create(getActivity(), tourPosition.getmPlaceAudioResourceID());
-                    mMediaPlayer.start();
-
-                    //OnCompletion Listener added plus a Toast message End of Transmissions!
-                    mMediaPlayer.setOnCompletionListener(mCompletionListener);
-                }
             }
         });
 

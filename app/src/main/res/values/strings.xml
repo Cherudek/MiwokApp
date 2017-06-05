@@ -133,7 +133,7 @@ etiquette manual. I make a small talk at the counter about regenerating holidays
 with goose\’s smoked chest and green sardines that seem to belong to a royal picnic at Stupinigi. I redirect my appetite towards the tray loaded of babà, chocolate truffles and
 lady’s kisses. Everything is perfect. What is lacking is only a bust of King Umberto I at the entrance, but they tell me that they are striving for it. A little precious trunk:
 among historical café of Turin, Mulassano is my favorite, for a breakfast that occasionally is worth it to have, a sandwich as it should be (according to someone, it is born here) or a Vermouth at the appetizer time.</string>
-    <string name="mulassano_address">Fiorio</string>
+    <string name="mulassano_address">Piazza Castello, 15</string>
     <string name="mulassano_map">45.07025419999999,7.686539400000015</string>
     <string name="mulassano_web_link">http://www.caffemulassano.com/en/</string>
 
@@ -270,5 +270,41 @@ Aperto solo a cena.</string>
     <string name="pastis_address">Piazza Emanuele Filiberto, 9 b</string>
     <string name="pastis_map">45.0761486,7.681198799999947</string>
     <string name="pastis_web">https://www.facebook.com/pastis.torino/</string>
+
+    <string name="cinema">Museum of Cinema</string>
+    <string name="cinema_description">It is The National Cinema Museum of Torino. And yet it’s not a museum. At least not in the traditional sense of the term. Those of you who have already visited it understand what we mean. And those of you who are planning on visiting it will be surprised to discover what a special and unique place it is.
+The Museum is one of the most important of its kind in the world thanks to it vast collection and the many different scientific and educational activities it carries out. But what makes it truly unique is its special exhibit setup. The museum is located inside the Mole Antonelliana, a bizarre and fascinating monument which is the symbol of the City of Torino. And the various areas inside the Mole Antonelliana were the starting point for the Swiss set designer François Confino who, with talent and imagination, multiplied the museum’s itineraries. He created a spectacular presentation that offers visitors continuous and unexpected visual and acoustic stimuli, just like when we watch a film that involves and moves us.
+The Museum is more than a museum and whoever enters it isn’t just a visitor but also an explorer, an author, an actor, a spectator… to whom the Museum offers the emotions of an experience we hope won’t be easily forgotten.</string>
+
+    <string name="egizio">Museo Egizio</string>
+    <string name="egizio_description">The Museo Egizio is the only museum other than the Cairo Museum that is dedicated solely to Egyptian art and culture. Many international scholars, since the decipherer of Egyptian hieroglyphs Jean-François Champollion, who came to Turin in 1824, spend much time pouring over the collections. It was Champollion who famously wrote, “The road to Memphis and Thebes passes through Turin”.
+The collections that make up today’s Museum were enlarged by the excavations conducted in Egypt by the Museum’s archaeological mission between 1900 and 1935 (a period when finds were divided between the excavators and Egypt).</string>
+    <string name="egizio_address">Via Accademia delle Scienze, 6</string>
+    <string name="egizio_map">45.0683999,7.684393699999987</string>
+    <string name="egizio_web">http://www.museoegizio.it/en/</string>
+
+    <string name="gam">GAM Gallery of Modern and Contemporary Art</string>
+    <string name="gam_address">Via Magenta, 31</string>
+    <string name="gam_description">Welcome to the Galleria d\'Arte Moderna e Contemporanea di Torino (Torino Civic Gallery of Modern and Contemporary Art)!
+Comprising a collection of 45,000 works spanning a period from the nineteenth century to the present day, with its paintings, sculptures, works on paper, installations, videos and photographs, the GAM offers its audience a wealth of events ranging from major exhibitions of Italian and international artists to highly contemporary research dedicated to a young audience. This dynamic Museum curates and designs original projects, lectures and meetings and also partners with the world\'s most important museums and institutions. The collections and exhibitions are housed on all four floors of the Museum and will surprise visitors with their richness and variety.</string>
+    <string name="gam_map">45.06504,7.669729999999959</string>
+    <string name="gam_web">http://www.gamtorino.it/en/</string>
+
+    <string name="rivoli">Castello di Rivoli</string>
+    <string name="rivoli_web">http://www.castellodirivoli.org/en</string>
+    <string name="rivoli_address">Piazza Mafalda di Savoia - 10098 Rivoli </string>
+    <string name="rivoli_map">45.06504,7.669729999999959</string>
+    <string name="rivoli_description">Ever since its foundation in 1984, the Castello di Rivoli Museo d’Arte Contemporanea has grown while taking into account the specific nature of the building, designed by Juvarra, in which it is housed, setting up a dialogue between the invited artists and the location, thereby generating works created specifically for the Castello’s Collection.
+
+One of the distinctive features of the Castello di Rivoli is the attention paid to the multiple expressive languages of the contemporary world; the museum collaborates actively with other cultural institutions, hosting or realising common initiatives, ranging from theatrical performances to concerts, film and artist’s video festivals to cycles of meetings. It also promotes symposia and round tables dedicated to other artistic disciplines, including literature and music and associated scientific disciplines, such as restoration and conservation. Conserving and displaying works of art is a central mission but – on its own – insufficient for interpreting the new functions and objectives of a contemporary art museum in the 21st century. The contemporary art museum must represent a place for meeting and comparison outside its own walls too.</string>
+
+    <string name="name_var">placeName</string>
+    <string name="address_var">placeAddress</string>
+    <string name="desc_var">placeDescription</string>
+    <string name="img_var">placeImage</string>
+    <string name="audio_var">placeAudio</string>
+    <string name="site_var">placeSite</string>
+    <string name="loc_var">placeLocation</string>
+    <string name="coffee">Coffee</string>
 
 </resources>

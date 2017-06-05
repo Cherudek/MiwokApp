@@ -22,27 +22,15 @@ public class Tour {
     //The ID of the image resource of the place
     private int mPlaceImageResourceID;
 
-    //Constant for no audio
-    private int NO_AUDIO_RESOURCE = -1;
-
-    //The ID of the audio resourse of the place
-    private int mPlaceAudioResourceID = NO_AUDIO_RESOURCE;
-
     //The site URL of the place
     private String mPlaceSiteURL;
 
     //The location coordinates of the place
     private String mPlaceLocation;
 
-    // int value to set a play icon
-    private int mPlayIcon;
-
-    // int value to set a sound input
-    private int mPlaySoundID;
-
 
     //Public constructor of the Place object with no audio resource
-    public Tour(String name, String address, String description, int imageResourceID, String siteUrl, String location) {
+    public Tour(String name, String address, String description, int imageResourceID, String location, String siteUrl) {
         mPlace = name;
         mAddress = address;
         mPlaceImageResourceID = imageResourceID;
@@ -51,12 +39,12 @@ public class Tour {
         mPlaceLocation = location;
     }
 
-    //get Methods for MiwokTranslation
-    public String getPlace() {
+    //get Methods for place name
+    public String getPlaceName() {
         return mPlace;
     }
 
-    //get Methods for DefaultTranslation
+    //get Methods for address
     public String getAddress() {
         return mAddress;
     }
@@ -66,37 +54,26 @@ public class Tour {
         return mPlaceImageResourceID;
     }
 
-    public int getmPlaceAudioResourceID() {
-        return mPlaceAudioResourceID;
+    //get method for placxe description
+    public String getmPlaceDescription() {
+        return mPlaceDescription;
     }
 
-    public void setmPlaceAudioResourceID(int mPlaceAudioResourceID) {
-        this.mPlaceAudioResourceID = mPlaceAudioResourceID;
+    //get method for site web address
+    public String getmPlaceSiteURL() {
+        return mPlaceSiteURL;
     }
+
+    //method to get location coordinates
+    public String getmPlaceLocation() {
+        return mPlaceLocation;
+    }
+
+
 
     //this method returns a boolean value to check whether or not the Tour object has  an image state associate with it;
     public boolean hasImage() {
         return getImageResourceID() != NO_IMAGE;
-    }
-
-    //get the address of our object
-    public String getmAddress() {
-        return mAddress;
-    }
-
-    //set method for the address state
-    public void setmAddress(String mAddress) {
-        this.mAddress = mAddress;
-    }
-
-    //get method for the icon ID
-    public int getmPlayIcon() {
-        return mPlayIcon;
-    }
-
-    //get method for the soundID
-    public int getmPlaySoundID() {
-        return mPlaySoundID;
     }
 
     @Override
@@ -106,12 +83,8 @@ public class Tour {
                 ", mAddress='" + mAddress + '\'' +
                 ", mPlaceDescription='" + mPlaceDescription + '\'' +
                 ", mPlaceImageResourceID=" + mPlaceImageResourceID +
-                ", NO_AUDIO_RESOURCE=" + NO_AUDIO_RESOURCE +
-                ", mPlaceAudioResourceID=" + mPlaceAudioResourceID +
                 ", mPlaceSiteURL='" + mPlaceSiteURL + '\'' +
                 ", mPlaceLocation='" + mPlaceLocation + '\'' +
-                ", mPlayIcon=" + mPlayIcon +
-                ", mPlaySoundID=" + mPlaySoundID +
                 '}';
     }
 }

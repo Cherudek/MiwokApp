@@ -88,10 +88,10 @@ public class MuseumsFragment extends Fragment {
         //Creating an ArrayList with 10 items
         final ArrayList<Tour> tours = new ArrayList<Tour>();
 
-        tours.add(new Tour(getString(R.string.mole), getString(R.string.mole_address), getString(R.string.mole_description), R.drawable.mole, getString(R.string.mole_map), getString(R.string.mole_web_link)));
-        tours.add(new Tour(getString(R.string.cappuccini), getString(R.string.cappuccini_address), getString(R.string.cappuccini_description), R.drawable.al_monte_dei_cappuccini, getString(R.string.cappuccini_map), getString(R.string.cappuccini_web_link)));
-        tours.add(new Tour(getString(R.string.vittorio), getString(R.string.vittorio_address), getString(R.string.vittorio_description), R.drawable.piazza_vittorio, getString(R.string.vittorio_map), getString(R.string.vittorio_web_link)));
-        tours.add(new Tour(getString(R.string.superga), getString(R.string.superga_address), getString(R.string.superga_description), R.drawable.basilica_superga, getString(R.string.superga_map), getString(R.string.superga_web_link)));
+        tours.add(new Tour(getString(R.string.cinema), getString(R.string.mole_address), getString(R.string.cinema_description), R.drawable.cinemamuseum, getString(R.string.mole_map), getString(R.string.mole_web_link)));
+        tours.add(new Tour(getString(R.string.egizio), getString(R.string.egizio_address), getString(R.string.egizio_description), R.drawable.egizio, getString(R.string.egizio_map), getString(R.string.egizio_web)));
+        tours.add(new Tour(getString(R.string.gam), getString(R.string.gam_address), getString(R.string.gam_description), R.drawable.gam, getString(R.string.gam_map), getString(R.string.gam_web)));
+        tours.add(new Tour(getString(R.string.rivoli), getString(R.string.rivoli_address), getString(R.string.rivoli_description), R.drawable.rivoli, getString(R.string.rivoli_map), getString(R.string.rivoli_web)));
         tours.add(new Tour(getString(R.string.duomo), getString(R.string.duomo_address), getString(R.string.duomo_description), R.drawable.duomo, getString(R.string.duomo_map), getString(R.string.duomo_web_link)));
         tours.add(new Tour(getString(R.string.consolata), getString(R.string.consolata_address), getString(R.string.superga_description), R.drawable.consolata01, getString(R.string.superga_description), getString(R.string.superga_description)));
         tours.add(new Tour(getString(R.string.carignano), getString(R.string.carignano_address), getString(R.string.carignano_description), R.drawable.palazzo_carignano, getString(R.string.carignano_map), getString(R.string.carignano_web_link)));
@@ -124,26 +124,6 @@ public class MuseumsFragment extends Fragment {
                 // Get the {@link Tour} object at the given position the user clicked on
                 Tour tourPosition = tours.get(position);
 
-                // Request audio focus so in order to play the audio file. The app needs to play a
-                // short audio file, so we will request audio focus with a short amount of time
-                // with AUDIOFOCUS_GAIN_TRANSIENT.
-                int result = mAudioManager.requestAudioFocus(mOnAudioFocusChangeListener,
-                        AudioManager.STREAM_MUSIC, AudioManager.AUDIOFOCUS_GAIN_TRANSIENT);
-
-                if (result == AudioManager.AUDIOFOCUS_REQUEST_GRANTED) {
-                    // We have audio focus now.
-
-                    // Create and setup the {@link MediaPlayer} for the audio resource associated
-                    // with the current word
-                    mMediaPlayer = MediaPlayer.create(getActivity(), tourPosition.getmPlaceAudioResourceID());
-
-                    // Start the audio file
-                    mMediaPlayer.start();
-
-                    // Setup a listener on the media player, so that we can stop and release the
-                    // media player once the sound has finished playing.
-                    mMediaPlayer.setOnCompletionListener(mCompletionListener);
-                }
             }
         });
 
