@@ -1,19 +1,13 @@
-package com.example.android.miwok;
+package com.example.android.TurinTour;
 
-import android.content.Context;
 import android.content.Intent;
-import android.media.AudioManager;
-import android.media.MediaPlayer;
 import android.net.Uri;
-import android.support.v4.app.NavUtils;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
-
-import static com.example.android.miwok.R.styleable.MenuItem;
 
 public class TourDeatailActivity extends AppCompatActivity {
 

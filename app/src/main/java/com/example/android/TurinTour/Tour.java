@@ -1,4 +1,4 @@
-package com.example.android.miwok;
+package com.example.android.TurinTour;
 
 /**
  * Created by Gregorio on 09/05/2017.

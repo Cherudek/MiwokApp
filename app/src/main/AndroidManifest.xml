@@ -14,7 +14,7 @@
      limitations under the License.
 -->
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.android.miwok">
+    package="com.example.android.TurinTour">
 
     <application
         android:allowBackup="true"
@@ -24,7 +24,7 @@
         android:theme="@style/AppTheme">
 
         <!-- The main/home activity (it has no parent activity) -->
-        <activity android:name=".MainActivity">
+        <activity android:name="com.example.android.TurinTour.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -32,54 +32,54 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".SightsActivity"
+            android:name="com.example.android.TurinTour.SightsActivity"
             android:label="@string/category_sights"
-            android:parentActivityName=".MainActivity">
+            android:parentActivityName="com.example.android.TurinTour.MainActivity">
 
             <!-- Parent activity meta-data to support 4.0 and lower -->
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value=".MainActivity" />
+                android:value="com.example.android.TurinTour.MainActivity" />
         </activity>
         <activity
-            android:name=".MuseumsActivity"
+            android:name="com.example.android.TurinTour.MuseumsActivity"
             android:label="@string/category_museums"
-            android:parentActivityName=".MainActivity">
+            android:parentActivityName="com.example.android.TurinTour.MainActivity">
 
             <!-- Parent activity meta-data to support 4.0 and lower -->
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value=".MainActivity" />
+                android:value="com.example.android.TurinTour.MainActivity" />
         </activity>
         <activity
-            android:name=".FoodActivity"
+            android:name="com.example.android.TurinTour.FoodActivity"
             android:label="@string/category_food"
-            android:parentActivityName=".MainActivity">
+            android:parentActivityName="com.example.android.TurinTour.MainActivity">
 
             <!-- Parent activity meta-data to support 4.0 and lower -->
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value=".MainActivity" />
+                android:value="com.example.android.TurinTour.MainActivity" />
         </activity>
         <activity
-            android:name=".BarsActivity"
+            android:name="com.example.android.TurinTour.BarsActivity"
             android:label="@string/category_bars"
-            android:parentActivityName=".MainActivity">
+            android:parentActivityName="com.example.android.TurinTour.MainActivity">
 
             <!-- Parent activity meta-data to support 4.0 and lower -->
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value=".MainActivity" />
+                android:value="com.example.android.TurinTour.MainActivity" />
         </activity>
 
         <activity
-            android:name=".TourDeatailActivity"
-            android:parentActivityName=".MainActivity">
+            android:name="com.example.android.TurinTour.TourDeatailActivity"
+            android:parentActivityName="com.example.android.TurinTour.MainActivity">
 
             <!-- Parent activity meta-data to support 4.0 and lower -->
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value=".MainActivity" />
+                android:value="com.example.android.TurinTour.MainActivity" />
         </activity>
     </application>
 

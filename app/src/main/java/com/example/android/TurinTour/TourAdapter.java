@@ -1,4 +1,4 @@
-package com.example.android.miwok;
+package com.example.android.TurinTour;
 
 import android.app.Activity;
 import android.content.Context;
