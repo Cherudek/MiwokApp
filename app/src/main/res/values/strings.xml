@@ -292,7 +292,7 @@ Comprising a collection of 45,000 works spanning a period from the nineteenth ce
 
     <string name="rivoli">Castello di Rivoli</string>
     <string name="rivoli_web">http://www.castellodirivoli.org/en</string>
-    <string name="rivoli_address">Piazza Mafalda di Savoia - 10098 Rivoli </string>
+    <string name="rivoli_address">Piazza Mafalda di Savoia - Rivoli </string>
     <string name="rivoli_map">45.06504,7.669729999999959</string>
     <string name="rivoli_description">Ever since its foundation in 1984, the Castello di Rivoli Museo d’Arte Contemporanea has grown while taking into account the specific nature of the building, designed by Juvarra, in which it is housed, setting up a dialogue between the invited artists and the location, thereby generating works created specifically for the Castello’s Collection.
 
@@ -305,6 +305,59 @@ One of the distinctive features of the Castello di Rivoli is the attention paid 
     <string name="audio_var">placeAudio</string>
     <string name="site_var">placeSite</string>
     <string name="loc_var">placeLocation</string>
-    <string name="coffee">Coffee</string>
 
+    <string name="GalleriaSabauda">Galleria Sabauda</string>
+    <string name="sabauda_address">Piazzetta Reale 1</string>
+    <string name="sabauda_map">45.0724005,7.685953799999993</string>
+    <string name="sabauda_description">The tour trail is based on ninety-five art works from the 14th to the 19th centuries. “They are sculptures and above all paintings, selected from the more than one thousand two hundred which make up the works owned by the Savoy Gallery and submitted for the occasion to a meticulous review of their state of conservation”, says the Superintendent Edith Gabrielli. Many “symbolic paintings” are involved, namely those masterpieces for which the Savoy Gallery is known throughout the world, from the Stigmata of Saint Francis by Jan Van Ecyk, to the Annunciation by Orazio Gentileschi and the Equestrian portrait of Tommaso Francesco of Savoia-Carignano by Antoon van Dyck. These and other works will be called upon to interact with others which have yet to enjoy the space and attention they deserve, so as to form an original, scrupulously scientific critical path, aimed at encouraging engagement between the artistic school of Piedmont and other Italian or European schools".
+
+With this exhibition, the Savoy Gallery, at exactly one hundred and eighty years from its foundation (by Carlo Alberto in 1832), enters a totally new phase. The operation is evolutionary with respect to the past, not the first time this has happened in the history of the museum. “In 1865 the Gallery had already moved from Palazzo Madama to Palazzo dell' Accademia delle Scienze”, explains the director of the Savoy Gallery Anna Maria Bava. “The reason for that initial transfer was preservation, whereas today the change is dictated by the need to adapt the Savoy Gallery to the new role of Turin, a city which at least since the Olympic Games of 2006 has taken its place on the international stage as a crossroads of art and culture”.</string>
+    <string name="sabauda_link">http://www.museireali.beniculturali.it/index.php/en/il-complesso/galleria-sabauda</string>
+
+    <string name="venaria">La Venaria Reale</string>
+    <string name="venaria_address">piazza della Repubblica 4 - Venaria Reale</string>
+    <string name="venaria_description">The Venaria Reale estate is an environmental and architectural complex of extraordinary charm. These boundless, varied, and spectacular spaces create magical atmospheres where visitors can indulge in the pursuit of an array of cultural and leisure activities: live performances, special events, concerts and art shows go hand in hand with direct, intimate contact with nature, relaxation, entertainment, sports and pastimes, and gastronomic delights.
+
+La Venaria Reale is the old town centre that witnessed major historical events. It is the imposing Baroque Reggia which, together with the Gardens, is one of the most remarkable examples of 17th and 18th century architecture and art. It is the Park of La Mandria, one of the largest natural preserves in Europe, home to a wealth of wild and domestic animal species and the site of several historical and architectural gems, including the International Horse Centre.
+
+The renewed splendor and superb quality of the restored Reggia, the immensity and beauty of the Gardens, and the natural scenery of the Park provide endless opportunities to explore new sensations and to make new experiences, according to a modern concept of taste, leisure and the art of living that is available to all.
+
+The Reggia di Venaria Reale and the Royal Residence of La Mandria have been declared World Heritage Sites by UNESCO.</string>
+    <string name="venaria_map">45.1359718,7.623365000000035</string>
+    <string name="venaria_web">http://www.lavenaria.it/web/</string>
+
+    <string name="mao">Oriental Art Museum</string>
+    <string name="mao_web">http://www.maotorino.it/en</string>
+    <string name="mao_address">Via San Domenico, 11</string>
+    <string name="mao_map">45.0746445,7.68022719999999</string>
+    <string name="mao_description">The MAO aims to achieve the broadest possible representation of artistic production from the many Asian countries.
+The museum houses the main cultural and artistic traditions of the Asian continent.
+The Museum\'s holdings comprise some 2200 works from several Asian countries.
+The permanent exhibition area is divided into five galleries each devoted to a corresponding cultural area: South and Southeast Asia with works from the Indian subcontinent and from Indochina; China, the cradle of a centuries-old, proteiform artistic civilisation; the Himalayan Region with its fertile interaction between Indian and Chinese cultures; Japan, a land with original artistic developments that arose from the encounter between Asian and European cultures; the Islamic countries bearing witness to the extraordinary artistic effervescence that extended from Central Asia to the Mediterranean.</string>
+
+    <string name="lombroso_web">http://museolombroso.unito.it/index.php/it/</string>
+    <string name="lombroso">Lombroso Criminal Anthropology</string>
+    <string name="lombroso_address">via Pietro Giuria, 15</string>
+    <string name="lombroso_description">The year 2009, the centenary of the death of Cesare Lombroso, founder of criminal anthropology, saw the renovation of “his” unique museum. The collections include anatomical specimens, drawings, photographs, examples of material evidence, written documents, and valuable craft and artistic works created by asylum and prison inmates. The new museum displays are also intended to provide the visitor the conceptual tools to understand how and why this controversial scientist came to formulate the theory of criminal atavism and what were the errors in his scientific method that led him to found a science that turned out to be so erroneous.
+</string>
+    <string name="lombroso_map">45.04971469999999,7.679776899999979</string>
+
+    <string name="stupinigi_description">A hunting lodge for a European Court
+
+A place of leisure and hunting, this was the favourite spot of the Savoy family for spectacular parties and solemn marriages, as well as being the residence of Napoleon in the early 19th century.
+
+Filippo Juvarra designed the exceptional architecture for the sovereign, styled on the model of contemporary Central European Residences. For completing the project, also Benedetto Alfieri and other architects of the 1700s lent a hand, while cabinetmakers and carvers, stucco decorators and gilders helped to achieve the final decorative display.
+
+Home to the Furniture Museum since 1919, it holds precious items of furniture, chinoiseries and masterpieces by cabinetmakers and craftsmen coming also from other Savoy Residences.</string>
+
+    <string name="stupinigi">Palazzina di Caccia di Stupinigi</string>
+    <string name="stupinigi_address">Piazza Principe Amedeo, 7 - Nichelino</string>
+    <string name="stupinigi_map">44.9961488,7.606712700000003</string>
+    <string name="stupinigi_link">http://www.ordinemauriziano.it/palazzina-di-caccia-stupinigi</string>
+
+    <string name="madama">Palazzo Madama</string>
+    <string name="madama_address">Piazza Castello</string>
+    <string name="madama_descfiption">Palazzo Madama is a large historic building that now houses the collections of the Museo Civico d’Arte Antica, Turin’s municipal museum of ancient art. The visit thus consists of two tours in one: you will learn about the history of the building, as well as about the works of art it contains. The visit covers four floors, taking you on a sort of journey through time: in the basement, down by the Roman foundations, there is the Lapidario Medievale – the medieval stonework collection – with stone sculptures and jewellery. From there you can reach the Medieval Garden, a heaven of nature and silence in the heart of Turin; the ground floor is mainly devoted to the fifteenth-century castle and to the art of the Middle Ages and of the Renaissance. In the Treasure Tower, you will find the Portrait of a Man by Antonello da Messina. The Baroque rooms on the first floor contain the art of the seventeenth and eighteenth centuries, with paintings and with furniture by Pifetti and Prunotto in lavishly decorated settings. Lastly, on the second floor, you will be able to see the decorative arts of all ages: ceramics, ivories, jewellery, fabrics, glasswork, and much more besides.The Museum was set up in 1861 by the City of Turin to bring together and house the heritage of Piedmont. This is why most of the works in Palazzo Madama come from the region and from neighbouring areas. You will discover the works of great artists and craftsman, which will help you understand the culture and artistic tastes of an Alpine and frontier region which was governed for six centuries by the Savoy dynasty. But there is more to the spirit of the Museum: that of its great masterpieces and one that takes inspiration from the great international museums of the applied arts. The immense collections on this floor were initially set up by the first directors of the museum as a catalogue of models for Piedmontese craftsmen, and they now form one of the greatest collections of the applied arts in Italy.</string>
+    <string name="madama_map">45.0711813,7.685038800000029</string>
+    <string name="madama_web">http://www.palazzomadamatorino.it/en</string>
 </resources>

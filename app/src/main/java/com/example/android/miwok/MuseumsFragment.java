@@ -92,12 +92,12 @@ public class MuseumsFragment extends Fragment {
         tours.add(new Tour(getString(R.string.egizio), getString(R.string.egizio_address), getString(R.string.egizio_description), R.drawable.egizio, getString(R.string.egizio_map), getString(R.string.egizio_web)));
         tours.add(new Tour(getString(R.string.gam), getString(R.string.gam_address), getString(R.string.gam_description), R.drawable.gam, getString(R.string.gam_map), getString(R.string.gam_web)));
         tours.add(new Tour(getString(R.string.rivoli), getString(R.string.rivoli_address), getString(R.string.rivoli_description), R.drawable.rivoli, getString(R.string.rivoli_map), getString(R.string.rivoli_web)));
-        tours.add(new Tour(getString(R.string.duomo), getString(R.string.duomo_address), getString(R.string.duomo_description), R.drawable.duomo, getString(R.string.duomo_map), getString(R.string.duomo_web_link)));
-        tours.add(new Tour(getString(R.string.consolata), getString(R.string.consolata_address), getString(R.string.superga_description), R.drawable.consolata01, getString(R.string.superga_description), getString(R.string.superga_description)));
-        tours.add(new Tour(getString(R.string.carignano), getString(R.string.carignano_address), getString(R.string.carignano_description), R.drawable.palazzo_carignano, getString(R.string.carignano_map), getString(R.string.carignano_web_link)));
-        tours.add(new Tour(getString(R.string.regina), getString(R.string.regina_address), getString(R.string.regina_description), R.drawable.regina3, getString(R.string.regina_map), getString(R.string.regina_web_link)));
-        tours.add(new Tour(getString(R.string.valentino), getString(R.string.valentino_address), getString(R.string.valentino_description), R.drawable.parco_del_valentino, getString(R.string.valentino_map), getString(R.string.valentino_web_link)));
-        tours.add(new Tour(getString(R.string.reale), getString(R.string.reale_address), getString(R.string.reale_description), R.drawable.piazza_castello, getString(R.string.reale_map), getString(R.string.reale_web_link)));
+        tours.add(new Tour(getString(R.string.GalleriaSabauda), getString(R.string.sabauda_address), getString(R.string.sabauda_description), R.drawable.sabauda, getString(R.string.sabauda_map), getString(R.string.sabauda_link)));
+        tours.add(new Tour(getString(R.string.venaria), getString(R.string.venaria_address), getString(R.string.venaria_description), R.drawable.venaria, getString(R.string.venaria_map), getString(R.string.venaria_web)));
+        tours.add(new Tour(getString(R.string.mao), getString(R.string.mao_address), getString(R.string.mao_description), R.drawable.mao, getString(R.string.mao_map), getString(R.string.mao_web)));
+        tours.add(new Tour(getString(R.string.lombroso), getString(R.string.lombroso_address), getString(R.string.lombroso_description), R.drawable.lombroso, getString(R.string.lombroso_map), getString(R.string.lombroso_web)));
+        tours.add(new Tour(getString(R.string.stupinigi), getString(R.string.stupinigi_address), getString(R.string.stupinigi_description), R.drawable.stupinigi, getString(R.string.stupinigi_map), getString(R.string.stupinigi_link)));
+        tours.add(new Tour(getString(R.string.madama), getString(R.string.madama_address), getString(R.string.madama_descfiption), R.drawable.madama, getString(R.string.madama_map), getString(R.string.madama_web)));
 
 
         // Create an {@link TourAdapter}, whose data source is a list of {@link Tour}s. The
