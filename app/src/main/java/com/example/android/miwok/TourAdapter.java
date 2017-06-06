@@ -73,21 +73,21 @@ public class TourAdapter extends ArrayAdapter<Tour> {
         TextView placeTextView = (TextView) listItemView.findViewById(R.id.list_item1);
 
         // Get the version name from the current Tour object and
-        // set this text on the miwok TextView
+        // set this text on the TextView
         placeTextView.setText(currentTour.getPlaceName());
 
         // Find the TextView in the list_item.xml layout with the ID list item 2
         TextView addressTextView = (TextView) listItemView.findViewById(R.id.list_item2);
 
         // Get the version number from the current Tour object and
-        // set this text on the default translation TextView
+        // set this text on the TextView
         addressTextView.setText(currentTour.getAddress());
 
         // Find the ImageView in the list_item.xml layout with the ID version_number
         ImageView imageID = (ImageView) listItemView.findViewById(R.id.image);
 
 
-        // if else statement whether we want to show the imageView in the lis_item
+        // if else statement whether we want to show the imageView in the list_item
         // if an image is available or to remove the image View if no image is available
         if (currentTour.hasImage()) {
             // Get the image ID number from the current Tour object and

@@ -88,7 +88,7 @@ public class SightsFragment extends Fragment {
         tours.add(new Tour(getString(R.string.vittorio), getString(R.string.vittorio_address), getString(R.string.vittorio_description), R.drawable.piazza_vittorio, getString(R.string.vittorio_map), getString(R.string.vittorio_web_link)));
         tours.add(new Tour(getString(R.string.superga), getString(R.string.superga_address), getString(R.string.superga_description), R.drawable.basilica_superga, getString(R.string.superga_map), getString(R.string.superga_web_link)));
         tours.add(new Tour(getString(R.string.duomo), getString(R.string.duomo_address), getString(R.string.duomo_description), R.drawable.duomo, getString(R.string.duomo_map), getString(R.string.duomo_web_link)));
-        tours.add(new Tour(getString(R.string.consolata), getString(R.string.consolata_address), getString(R.string.superga_description), R.drawable.consolata01, getString(R.string.superga_description), getString(R.string.superga_description)));
+        tours.add(new Tour(getString(R.string.consolata), getString(R.string.consolata_address), getString(R.string.consolata_description), R.drawable.consolata01, getString(R.string.consolata_map), getString(R.string.consolata_web)));
         tours.add(new Tour(getString(R.string.carignano), getString(R.string.carignano_address), getString(R.string.carignano_description), R.drawable.palazzo_carignano, getString(R.string.carignano_map), getString(R.string.carignano_web_link)));
         tours.add(new Tour(getString(R.string.regina), getString(R.string.regina_address), getString(R.string.regina_description), R.drawable.regina3, getString(R.string.regina_map), getString(R.string.regina_web_link)));
         tours.add(new Tour(getString(R.string.valentino), getString(R.string.valentino_address), getString(R.string.valentino_description), R.drawable.parco_del_valentino, getString(R.string.valentino_map), getString(R.string.valentino_web_link)));
@@ -113,9 +113,6 @@ public class SightsFragment extends Fragment {
             @Override
             public void onItemClick(AdapterView<?> adapterView, View view, int position, long ID) {
 
-                // Release the media player if it currently exists because we are about to
-                // play a different sound file
-                releaseMediaPlayer();
 
                 //method get to find the position clicked in our list view
                 Tour tourPosition = tours.get(position);
