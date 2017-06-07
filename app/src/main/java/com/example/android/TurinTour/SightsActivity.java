@@ -3,6 +3,7 @@ package com.example.android.TurinTour;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
+
 public class SightsActivity extends AppCompatActivity {
 
     @Override
