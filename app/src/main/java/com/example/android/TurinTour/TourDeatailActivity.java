@@ -11,6 +11,9 @@ import android.widget.TextView;
 
 public class TourDeatailActivity extends AppCompatActivity {
 
+    public static final String Z_16 = "?z=16";
+    public static final String GEO = "geo:";
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -71,7 +74,7 @@ public class TourDeatailActivity extends AppCompatActivity {
             public void onClick(View v) {
 
                 //If clicking on the icon, goes to the site of the place
-                Uri geoLocation = Uri.parse("geo:" + placeLocation + "?z=16");
+                Uri geoLocation = Uri.parse(GEO + placeLocation + Z_16);
                 Intent mapIntent = new Intent(Intent.ACTION_VIEW, geoLocation);
                 if (mapIntent.resolveActivity(getPackageManager()) != null) {
                     startActivity(mapIntent);

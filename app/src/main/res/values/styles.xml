@@ -34,7 +34,7 @@
 
     <!-- Style for TextViews in the tour_list xml -->
     <style name="listItemText">
-        <item name="android:background">@color/category_numbers</item>
+        <!-- <item name="android:background">@color/category_numbers | ?android:attr/selectableItemBackground</item> -->
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">@dimen/list_item_height</item>
         <item name="android:gravity">center_vertical</item>
@@ -42,6 +42,7 @@
         <item name="android:textColor">@android:color/white</item>
         <item name="android:textStyle">bold</item>
         <item name="android:textAppearance">?android:textAppearanceMedium</item>
+        <item name="android:background">?android:attr/selectableItemBackground</item>
     </style>
 
     <!-- Style for TextView List Item 1 in the tour_list xml -->

@@ -7,9 +7,15 @@ package com.example.android.TurinTour;
 public class Tour {
 
 
+    public static final String M_PLACE_LOCATION = ", mPlaceLocation='";
+    public static final String M_PLACE_SITE_URL = ", mPlaceSiteURL='";
+    public static final String M_PLACE_IMAGE_RESOURCE_ID = ", mPlaceImageResourceID=";
+    public static final String M_PLACE_DESCRIPTION = ", mPlaceDescription='";
+    public static final String M_ADDRESS = ", mAddress='";
+    public static final String M_PLACE = "mPlace='";
+    public static final String TOUR = "Tour{";
     //Constant int assigned to set a no image state to use in the hasImage method;
     private static final int NO_IMAGE = -1;
-
     // String values: for the place name of the Object Tour
     private String mPlace;
 
@@ -78,13 +84,13 @@ public class Tour {
 
     @Override
     public String toString() {
-        return "Tour{" +
-                "mPlace='" + mPlace + '\'' +
-                ", mAddress='" + mAddress + '\'' +
-                ", mPlaceDescription='" + mPlaceDescription + '\'' +
-                ", mPlaceImageResourceID=" + mPlaceImageResourceID +
-                ", mPlaceSiteURL='" + mPlaceSiteURL + '\'' +
-                ", mPlaceLocation='" + mPlaceLocation + '\'' +
+        return TOUR +
+                M_PLACE + mPlace + '\'' +
+                M_ADDRESS + mAddress + '\'' +
+                M_PLACE_DESCRIPTION + mPlaceDescription + '\'' +
+                M_PLACE_IMAGE_RESOURCE_ID + mPlaceImageResourceID +
+                M_PLACE_SITE_URL + mPlaceSiteURL + '\'' +
+                M_PLACE_LOCATION + mPlaceLocation + '\'' +
                 '}';
     }
 }

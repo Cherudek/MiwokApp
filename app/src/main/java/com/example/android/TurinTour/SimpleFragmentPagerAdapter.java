@@ -24,7 +24,11 @@ import android.support.v4.app.FragmentPagerAdapter;
  */
 public class SimpleFragmentPagerAdapter extends FragmentPagerAdapter {
 
-    private String tabTitles[] = new String[]{"Sights", "Museums", "Food", "Bars"};
+    public static final String bars = "Bars";
+    public static final String FOOD = "Food";
+    public static final String MUSEUMS = "Museums";
+    public static final String SIGHTS = "Sights";
+    private String tabTitles[] = new String[]{SIGHTS, MUSEUMS, FOOD, bars};
 
     public SimpleFragmentPagerAdapter(FragmentManager fm) {
         super(fm);

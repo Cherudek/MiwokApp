@@ -48,9 +48,8 @@ public class TourAdapter extends ArrayAdapter<Tour> {
     @Override
     public View getView(int position, @Nullable View convertView, @NonNull ViewGroup parent) {
 
-        View listItemView = convertView;
-        if (listItemView == null) {
-            listItemView = LayoutInflater.from(getContext()).inflate(R.layout.list_item, parent, false);
+        if (convertView == null) {
+            convertView = LayoutInflater.from(getContext()).inflate(R.layout.list_item, parent, false);
         }
 
 
@@ -70,21 +69,21 @@ public class TourAdapter extends ArrayAdapter<Tour> {
         currentTour = getItem(position);
 
         // Find the TextView in the list_item.xml layout with the ID list item 1
-        TextView placeTextView = (TextView) listItemView.findViewById(R.id.list_item1);
+        TextView placeTextView = (TextView) convertView.findViewById(R.id.list_item1);
 
         // Get the version name from the current Tour object and
         // set this text on the TextView
         placeTextView.setText(currentTour.getPlaceName());
 
         // Find the TextView in the list_item.xml layout with the ID list item 2
-        TextView addressTextView = (TextView) listItemView.findViewById(R.id.list_item2);
+        TextView addressTextView = (TextView) convertView.findViewById(R.id.list_item2);
 
         // Get the version number from the current Tour object and
         // set this text on the TextView
         addressTextView.setText(currentTour.getAddress());
 
         // Find the ImageView in the list_item.xml layout with the ID version_number
-        ImageView imageID = (ImageView) listItemView.findViewById(R.id.image);
+        ImageView imageID = (ImageView) convertView.findViewById(R.id.image);
 
 
         // if else statement whether we want to show the imageView in the list_item
@@ -101,10 +100,10 @@ public class TourAdapter extends ArrayAdapter<Tour> {
         }
 
         //Set the background color for the list view with play button
-        View textContainer = listItemView.findViewById(R.id.text_container);
+        View textContainer = convertView.findViewById(R.id.text_container);
 
         //Set the color for the sub text view
-        View textContainer2 = listItemView.findViewById(R.id.text_play_container);
+        View textContainer2 = convertView.findViewById(R.id.text_play_container);
 
         //Find the colors the resource ID maps to.
         int color = ContextCompat.getColor(getContext(), mColorBackgroundActivityID);
@@ -128,7 +127,7 @@ public class TourAdapter extends ArrayAdapter<Tour> {
 
 
         //Start the intent if the user taps on the list item
-        listItemView.setOnClickListener(new View.OnClickListener() {
+        convertView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 context.startActivity(itemIntent);
@@ -136,6 +135,6 @@ public class TourAdapter extends ArrayAdapter<Tour> {
         });
         // Return the whole list item layout (containing 2 TextViews and an ImageView if present)
         // so that it can be shown in the ListView
-        return listItemView;
+        return convertView;
     }
 }
