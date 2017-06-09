@@ -12,6 +12,7 @@ import android.widget.TextView;
 public class TourDeatailActivity extends AppCompatActivity {
 
     public static final String Z_16 = "?z=16";
+
     public static final String GEO = "geo:";
 
     @Override

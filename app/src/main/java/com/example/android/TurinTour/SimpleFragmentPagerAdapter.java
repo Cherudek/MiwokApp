@@ -15,37 +15,55 @@
  */
 package com.example.android.TurinTour;
 
+import android.content.Context;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentPagerAdapter;
+
 
 /**
  * Provides the appropriate {@link Fragment} for a view pager.
  */
 public class SimpleFragmentPagerAdapter extends FragmentPagerAdapter {
 
-    public static final String bars = "Bars";
-    public static final String FOOD = "Food";
-    public static final String MUSEUMS = "Museums";
-    public static final String SIGHTS = "Sights";
-    private String tabTitles[] = new String[]{SIGHTS, MUSEUMS, FOOD, bars};
+    private String tabTitles[];
 
-    public SimpleFragmentPagerAdapter(FragmentManager fm) {
+
+    public SimpleFragmentPagerAdapter(FragmentManager fm, Context context) {
         super(fm);
+
+        String BARS = context.getString(R.string.bars);
+        String FOOD = context.getString(R.string.food);
+        String MUSEUMS = context.getString(R.string.museums);
+        String SIGHTS = context.getString(R.string.sights);
+        tabTitles = new String[]{SIGHTS, MUSEUMS, FOOD, BARS};
     }
+
 
     @Override
     public Fragment getItem(int position) {
-        if (position == 0) {
-            return new SightsFragment();
-        } else if (position == 1) {
-            return new MuseumsFragment();
-        } else if (position == 2) {
-            return new FoodFragment();
-        } else {
-            return new BarsFragment();
+
+        Fragment fragment = null;
+
+        switch (position) {
+            case 0:
+                fragment = new SightsFragment();
+                break;
+            case 1:
+                fragment = new MuseumsFragment();
+                break;
+            case 2:
+                fragment = new FoodFragment();
+                break;
+            case 3:
+                fragment = new BarsFragment();
+                break;
+            default:
+                break;
         }
+        return fragment;
     }
+
 
     @Override
     public int getCount() {
@@ -57,4 +75,7 @@ public class SimpleFragmentPagerAdapter extends FragmentPagerAdapter {
         // Generate title based on item position
         return tabTitles[position];
     }
-}
+
+    }
+
+
