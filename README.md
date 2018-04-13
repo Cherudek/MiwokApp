@@ -1,8 +1,10 @@
 Turin Tour Guide App
 ===================================
 
-The aim  app is to lists of vocabulary tours for the user to learn the Miwok language.
-It is one of the final projects produced for the Udacity Android Basic Nanodegree.
+One of the final projects produced for the Udacity Android Basic Nanodegree.
+
+[Android Basics: Multi-Screen Apps](https://classroom.udacity.com/nanodegrees/nd803/parts/e575c209-3295-4e3f-9b39-d9b4c851ac57)
+
 
 Project Overview
 --------------
