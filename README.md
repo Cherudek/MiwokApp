@@ -36,7 +36,7 @@ Specifications
 App Screen Shots
 -------
 
-![Sights]({{site.url}}{{site.baseurl}}/blob/master/sights_small.png)
+![Sights]({{site.url}}{{site.baseurl}}/sights_small.png)
 
 
 ![Bars](https://cherudek.github.io/TurinTour/bars.png "Bars Activity Screenshot")
