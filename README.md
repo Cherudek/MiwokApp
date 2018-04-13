@@ -39,7 +39,7 @@ App Screen Shots
 ![Sights]({{site.url}}{{site.baseurl}}/blob/master/sights_small.png)
 
 
-![Bars](https://github.com/Cherudek/TurinTour/blob/master/bars.png "Bars Activity Screenshot")
+![Bars](https://cherudek.github.io/TurinTour/bars.png "Bars Activity Screenshot")
 
 ![Food](https://github.com/Cherudek/TurinTour/blob/master/food.png "Food Activity Screenshot")
 
