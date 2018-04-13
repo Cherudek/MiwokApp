@@ -34,7 +34,7 @@ Specifications
 App Screen Shots
 -------
 
-![Sights](https://github.com/Cherudek/TurinTour/blob/master/sights.png "Sights Activity Screenshot")
+![Sights](https://github.com/Cherudek/TurinTour/blob/master/sights_small.png "Sights Activity Screenshot")
 
 ![Bars](https://github.com/Cherudek/TurinTour/blob/master/bars.png "Bars Activity Screenshot")
 
