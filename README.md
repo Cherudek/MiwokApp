@@ -31,6 +31,22 @@ Specifications
 - All drawables are stored at multiple densities.
 
 
+App Screen Shots
+-------
+
+![Sights](https://github.com/Cherudek/TurinTour/blob/master/sights.png "Sights Activity Screenshot")
+
+![Bars](https://github.com/Cherudek/TurinTour/blob/master/bars.png "Bars Activity Screenshot")
+
+![Food](https://github.com/Cherudek/TurinTour/blob/master/food.png "Food Activity Screenshot")
+
+![Museums](https://github.com/Cherudek/TurinTour/blob/master/museums.png "Sights Activity Screenshot")
+
+
+
+
+
+
 Patches are encouraged, and may be submitted by forking this project and
 submitting a pull request through GitHub. Please see CONTRIBUTING.md for more details.
 
