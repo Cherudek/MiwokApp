@@ -1,23 +1,23 @@
 Turin Tour Guide App
 ===================================
 
-The aim of this multi-screen Android app is  lists of vocabulary tours for the user to learn the Miwok language.
+The aim  app is to lists of vocabulary tours for the user to learn the Miwok language.
 It is one of the final projects produced for the Udacity Android Basic Nanodegree.
 
 Project Overview
 --------------
 
-The goal is to create a tour guide app which presents relevant information to a user who’s visiting your city. The app can list top attractions, restaurants, public places, or events for the city. It can contain all the best known secrets that only locals know.
+The goal of this multi-screen Android is to create a tour guide app which presents relevant information to a user who’s visiting my home town, Turin in Italy. The app lists top attractions, restaurants, museums and bars. It contains all the best known places loved by the locals.
 
 Skills Applied
 ---------------
 
-* Planning the app design and navigation before coding.
-* Selecting proper data structures to store lists of information.
+* Planning the app design and navigation.
+* Selecting proper data structures to store lists of information in this case ListViews.
 * Building layouts to display those lists of data.
-* Navigating between those lists using intents and multiple Activities or a ViewPager.
-* Creating your own custom classes.
-* Properly handling images or audio (if applicable).
+* Navigating between those lists using multiple Activities and relevant fragments (Sights, Museums, Fodd, Bars) and a ViewPager to navigate across them.
+* Creating custom classes: Bars, Food, Sights and Museums.
+* Handling images and explicit intents to web links and google maps.
 * This project is developed in pure Java language.
 
 Specifications
