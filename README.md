@@ -1,21 +1,23 @@
-Miwok App
+Turin Tour Guide App
 ===================================
 
-This app displays lists of vocabulary tours for the user to learn the Miwok language.
-Used in a Udacity course in the Beginning Android Nanodegree.
+The aim of this multi-screen Android app is  lists of vocabulary tours for the user to learn the Miwok language.
+It is one of the final projects produced for the Udacity Android Basic Nanodegree.
 
-Pre-requisites
+Project Overview
 --------------
 
-- Android SDK v23
-- Android Build Tools v23.0.2
-- Android Support Repository v23.3.0
+The goal is to create a tour guide app which presents relevant information to a user who’s visiting your city. The app can list top attractions, restaurants, public places, or events for the city. It can contain all the best known secrets that only locals know.
 
-Getting Started
+Skills Applied
 ---------------
 
-This sample uses the Gradle build system. To build this project, use the
-"gradlew build" command or use "Import Project" in Android Studio.
+⋅⋅* Planning your app design and navigation before coding.
+⋅⋅* Selecting proper data structures to store lists of information.
+⋅⋅* Building layouts to display those lists of data.
+⋅⋅* Navigating between those lists using intents and multiple Activities or a ViewPager.
+⋅⋅* Creating your own custom classes.
+⋅⋅* Properly handling images or audio (if applicable).
 
 Support
 -------
