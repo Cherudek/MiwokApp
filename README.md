@@ -36,16 +36,13 @@ Specifications
 App Screen Shots
 -------
 
-![Sights]({{site.url}}{{site.baseurl}}/sights_small.png)
-
+![Sights]({{site.url}}{{site.baseurl}}/sights_small.png "Sight Activity Screenshot")
 
 ![Bars](https://cherudek.github.io/TurinTour/bars.png "Bars Activity Screenshot")
 
-![Food](https://github.com/Cherudek/TurinTour/blob/master/food.png "Food Activity Screenshot")
+![Food](https://cherudek.github.io/TurinTour/food.png "Food Activity Screenshot")
 
-![Museums](https://github.com/Cherudek/TurinTour/blob/master/museums.png "Sights Activity Screenshot")
-
-
+![Museums](https://cherudek.github.io/TurinTour/museums.png "Sights Activity Screenshot")
 
 
 
