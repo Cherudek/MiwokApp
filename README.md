@@ -12,18 +12,24 @@ The goal is to create a tour guide app which presents relevant information to a 
 Skills Applied
 ---------------
 
-⋅⋅* Planning your app design and navigation before coding.
-⋅⋅* Selecting proper data structures to store lists of information.
-⋅⋅* Building layouts to display those lists of data.
-⋅⋅* Navigating between those lists using intents and multiple Activities or a ViewPager.
-⋅⋅* Creating your own custom classes.
-⋅⋅* Properly handling images or audio (if applicable).
+* Planning the app design and navigation before coding.
+* Selecting proper data structures to store lists of information.
+* Building layouts to display those lists of data.
+* Navigating between those lists using intents and multiple Activities or a ViewPager.
+* Creating your own custom classes.
+* Properly handling images or audio (if applicable).
+* This project is developed in pure Java language.
 
-Support
+Specifications
 -------
 
-- Google+ Community: https://plus.google.com/communities/105153134372062985968
-- Stack Overflow: http://stackoverflow.com/questions/tagged/android
+- User Navigates between lists using a ViewPager.
+- App contains a custom object for storing location information.
+- App uses a custom adapter to populate the layout with views based on instances of the custom class.
+- All strings are stored in the strings.xml resource file.
+- All images are stored as drawables.
+- All drawables are stored at multiple densities.
+
 
 Patches are encouraged, and may be submitted by forking this project and
 submitting a pull request through GitHub. Please see CONTRIBUTING.md for more details.
