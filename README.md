@@ -1,27 +1,35 @@
-Miwok App
+Turin Tour Guide App
 ===================================
 
-This app displays lists of vocabulary tours for the user to learn the Miwok language.
-Used in a Udacity course in the Beginning Android Nanodegree.
+The aim  app is to lists of vocabulary tours for the user to learn the Miwok language.
+It is one of the final projects produced for the Udacity Android Basic Nanodegree.
 
-Pre-requisites
+Project Overview
 --------------
 
-- Android SDK v23
-- Android Build Tools v23.0.2
-- Android Support Repository v23.3.0
+The goal of this multi-screen Android is to create a tour guide app which presents relevant information to a user who’s visiting my home town, Turin in Italy. The app lists top attractions, restaurants, museums and bars. It contains all the best known places loved by the locals.
 
-Getting Started
+Skills Applied
 ---------------
 
-This sample uses the Gradle build system. To build this project, use the
-"gradlew build" command or use "Import Project" in Android Studio.
+* Planning the app design and navigation.
+* Selecting proper data structures to store lists of information in this case ListViews.
+* Building layouts to display those lists of data.
+* Navigating between those lists using multiple Activities and relevant fragments (Sights, Museums, Fodd, Bars) and a ViewPager to navigate across them.
+* Creating custom classes: Bars, Food, Sights and Museums.
+* Handling images and explicit intents to web links and google maps.
+* This project is developed in pure Java language.
 
-Support
+Specifications
 -------
 
-- Google+ Community: https://plus.google.com/communities/105153134372062985968
-- Stack Overflow: http://stackoverflow.com/questions/tagged/android
+- User Navigates between lists using a ViewPager.
+- App contains a custom object for storing location information.
+- App uses a custom adapter to populate the layout with views based on instances of the custom class.
+- All strings are stored in the strings.xml resource file.
+- All images are stored as drawables.
+- All drawables are stored at multiple densities.
+
 
 Patches are encouraged, and may be submitted by forking this project and
 submitting a pull request through GitHub. Please see CONTRIBUTING.md for more details.
