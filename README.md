@@ -1,4 +1,4 @@
-Turin Tour Guide App
+Turin Tour Guide Android App
 ===================================
 
 One of the final projects produced for the Udacity Android Basic Nanodegree.
