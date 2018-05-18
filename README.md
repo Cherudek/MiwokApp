@@ -1,4 +1,4 @@
-Turin Tour Guide App
+Turin Tour Guide Android App
 ===================================
 
 One of the final projects produced for the Udacity Android Basic Nanodegree.
@@ -36,7 +36,7 @@ Specifications
 App Screen Shots
 -------
 
-![Sights]({{site.url}}{{site.baseurl}}/sights_small.png "Sight Activity Screenshot")
+![Sights](https://cherudek.github.io/TurinTour/sights_small.png "Sight Activity Screenshot")
 
 ![Bars](https://cherudek.github.io/TurinTour/bars.png "Bars Activity Screenshot")
 
