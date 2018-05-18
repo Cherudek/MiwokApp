@@ -12,6 +12,7 @@ public class BarsActivity extends AppCompatActivity {
 
         getSupportFragmentManager().beginTransaction()
                 .replace(R.id.container, new BarsFragment())
+                .addToBackStack("Bars")
                 .commit();
     }
 }
